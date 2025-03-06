@@ -1,0 +1,1207 @@
+,Variable,Position,Label de,Label en,Skala,N,Format,Missing
+0,PIDNR,1,Fallnummer (PUF)  ,Case number (PUF),Nominal,17640,F5,
+1,PPoint,2,Sample Pointnummer (PUF) ,Sample Point Number (PUF),Nominal,17640,F3,
+2,OW,3,Ost/West geografisch  ,East/West geographical,Nominal,17640,F2,
+3,STALA,4,Stadt-Land (Gemeindegrößenklasse)  ,Urban-rural (municipality size class),Ordinal,17640,F2,
+4,wKiGGS,5,Gewichtungsfaktor KiGGS  ,KiGGS weighting factor,Metrisch,17640,F7.5,
+5,wKGSLab,6,Gewichtungsfaktor KiGGS Labor (Blut),Weighting factor KiGGS laboratory (blood),Metrisch,14386,F7.5,
+6,wKGSVitD,7,Gewichtungsfaktor Vitamin D ,Weighting Factor Vitamin D,Metrisch,10015,F7.5,
+7,sex,8,Geschlecht   ,gender,Nominal,17640,F2,
+8,sexa,9,Geschlecht   ,gender,Nominal,17640,F2,
+9,age2,10,2-Jahresaltersgruppe (vollendet)  ,2 year age group (completed),Ordinal,17640,F3,
+10,agegrp,11,Altersgruppe   ,age group,Ordinal,17640,F2,
+11,AUSL,12,Ausländer lt. Einwohnermeldeamt ,Foreigners according to the registration office,Nominal,17640,F2,
+12,migrant,13,Migrantenstatus   ,migrant status,Nominal,17560,F2,
+13,mbtyp,14,Messbogentyp   ,measuring sheet type,Nominal,17640,F2,
+14,efbtyp,15,ElternFBTyp   ,ParentsFBTyp,Nominal,17640,F2,
+15,kfbtyp,16,KinderFBTyp   ,ChildrenFBTyp,Nominal,17640,F2,
+16,capi,17,Arztinterview   ,doctor interview,Nominal,17640,F2,
+17,lab,18,Status Blut-/Urindaten  ,Status blood/urine data,Nominal,17640,F2,
+18,ffq,19,Ernährungsbogen   ,nutrition sheet,Nominal,17640,F2,
+19,e001B,20,Hauptaufenthaltsort (EFB) aggregiert ,Main place of residence (EFB) aggregated,Nominal,17407,F3,
+20,e004,21,Fragebogenbeantworter   ,Questionnaire Answerer,Nominal,17420,F2,-7
+21,e005,22,Leibliche (Halb-) Geschwister ,Biological (half) siblings,Nominal,17122,F2,-7
+22,e005B1,23,Anzahl älterer Geschwister (leiblich),Number of older siblings (biological),Ordinal,13517,F3,-8
+23,e005B2,24,Anzahl jüngerer Geschwister (leiblich),Number of younger siblings (biological),Ordinal,13518,F3,
+24,e005B3,25,Anzahl gleichaltriger Geschwister (leiblich),Number of siblings of the same age (biological),Ordinal,13509,F3,
+25,e006,26,Geschwister (im Haushalt) ,Siblings (in the household),Nominal,16631,F2,-7
+26,e006B1,27,Anzahl älterer Geschwister (im,Number of older siblings (in,Ordinal,12607,F3,-8
+27,e006B2,28,Anzahl jüngerer Geschwister (im,Number of younger siblings (in,Ordinal,12605,F3,
+28,e006B3,29,Anzahl gleichaltriger Geschwister (im,Number of siblings of the same age (in,Ordinal,12602,F3,
+29,e007m,30,Mutter: Deutsche Staatsangehörigkeit ,Mother: German nationality,Nominal,17329,F2,-7
+30,e007ma,31,Mutter: Andere Staatsangehörigkeit ,Mother: Other nationality,Nominal,17329,F2,-7
+31,e007v,32,Vater: Deutsche Staatsangehörigkeit ,Father: German citizenship,Nominal,16748,F2,-7
+32,e007va,33,Vater: Andere Staatsangehörigkeit ,Father: Other nationality,Nominal,16748,F2,-7
+33,e008m,34,Mutter: Geburtsland  ,Mother: country of birth,Nominal,17302,F2,-7
+34,e008v,35,Vater: Geburtsland  ,Father: country of birth,Nominal,16891,F2,-7
+35,e009m,36,Mutter: Seit Geburt in D,Mother: Since birth in D,Nominal,17274,F2,-7
+36,e009mz,37,Mutter: Seit wann in D (Jahr),Mother: Since when in D (year),Metrisch,2915,F4,-7
+37,e009v,38,Vater: Seit Geburt in D ,Father: Since birth in D,Nominal,16668,F2,-7
+38,e009vz,39,Vater: Seit wann in D (Jahr),Father: Since when in D (year),Metrisch,2823,F4,-7
+39,e010m1,40,Deutsche Sprache zu Hause  ,German language at home,Nominal,17364,F2,-7
+40,e010m2,41,Andere Sprache zu Hause  ,Different language at home,Nominal,17364,F2,-7
+41,e011m,42,Mutter: Zuwanderergruppe    ,Mother: immigrant group,Nominal,2560,F2,-7
+42,e011v,43,Vater: Zuwanderergruppe    ,Father: immigrant group,Nominal,2402,F2,-7
+43,e012m_k,44,Mutter: 5-Jahresaltersgruppen    ,Mother: 5 year age groups,Ordinal,17293,F3,-8
+44,e012v_k,45,Vater: 5-Jahresaltersgruppen    ,Father: 5 year age groups,Ordinal,15872,F3,
+45,e013am_k,46,Mutter: Größe (Selbstangabe) (cm)  ,Mother: height (self-declared) (cm),Ordinal,17088,F3,
+46,e013av_k,47,Vater: Größe (Selbstangabe) (cm)  ,Father: height (self-declared) (cm),Ordinal,15254,F3,
+47,e013bm_k,48,Mutter: Gewicht (Selbstangabe) (kg)  ,Mother: weight (self-declared) (kg),Ordinal,17001,F3,
+48,e013bv_k,49,Vater: Gewicht (Selbstangabe) (kg)  ,Father: weight (self-declared) (kg),Ordinal,15056,F3,
+49,Mbmi_k,50,Mutter: Body-Mass-Index (kateg. Selbstangabe) (kg/qm) ,Mother: body mass index (category self-report) (kg/sqm),Ordinal,16967,F3,
+50,Vbmi_k,51,Vater: Body-Mass-Index (kateg. Selbstangabe) (kg/qm) ,Father: body mass index (category self-reported) (kg/sqm),Ordinal,15010,F3,
+51,E014z,52,Gewichtszunahme in Schwangerschaft (kg)  ,Weight gain during pregnancy (kg),Metrisch,15633,F2,-8
+52,e0151,53,Schwangerschaft: Diabetes    ,Pregnancy: diabetes,Nominal,15542,F2,
+53,e0152,54,Schwangerschaft: Andere Befunde   ,Pregnancy: other findings,Nominal,15088,F2,
+54,e0152c1,55,Schwangerschaft: Welche and. Befunde? (kodiert 1),Pregnancy: What other findings? (coded 1),Nominal,1992,F2,
+55,e0152c2,56,Schwangerschaft: Welche and. Befunde? (kodiert 2),Pregnancy: What other findings? (coded 2),Nominal,123,F2,
+56,e0152c3,57,Schwangerschaft: Welche and. Befunde? (kodiert 3),Pregnancy: What other findings? (coded 3),Nominal,8,F2,
+57,e0153,58,Schwangerschaft: Blutarmut    ,Pregnancy: anemia,Nominal,2557,F2,-7
+58,e0154,59,Schwangerschaft: Harnwegsinfektion    ,Pregnancy: urinary tract infection,Nominal,2554,F2,-7
+59,e0155,60,Schwangerschaft: Bluthochdruck    ,Pregnancy: high blood pressure,Nominal,2545,F2,-7
+60,e0156,61,"Schwangerschaft: Ödeme, Wasseransammlung im Gewebe ","Pregnancy: edema, accumulation of water in the tissues",Nominal,2554,F2,-7
+61,e0157,62,Schwangerschaft: Drohende Rhesuskrankheit d. Kindes ,Pregnancy: Imminent Rhesus disease d. child,Nominal,2528,F2,-7
+62,e016z,63,Geburt Schwangerschaftswoche    ,birth week of pregnancy,Metrisch,14713,F2,"-8, -9"
+63,e016,64,Reifestatus zur Geburt   ,Maturity status at birth,Nominal,9067,F2,
+64,e017a_k,65,Geburtsgewicht (g)(Klassiert)    ,Birth Weight (g)(Classified),Ordinal,16876,F5,"-8, -9"
+65,e017b_k,66,Geburtsgröße (cm)(Klassiert)    ,Birth Height (cm)(Classified),Ordinal,16786,F3,"-8, -9"
+66,e018,67,Probleme nach Geburt   ,problems after childbirth,Nominal,17168,F2,
+67,e018m1,68,"Nach Geburt: Atmungsschwierigkeiten, Anpassungsstörungen  ","After birth: breathing difficulties, adjustment disorders",Nominal,3987,F2,
+68,e018m2,69,Nach Geburt: Infektion   ,After birth: infection,Nominal,3987,F2,
+69,e018m3,70,Nach Geburt: Gelbsucht   ,After birth: jaundice,Nominal,3987,F2,
+70,e018m4,71,"Nach Geburt: Untergewicht, Frühgeburt  ","After birth: underweight, premature birth",Nominal,3987,F2,
+71,e018m5,72,Nach Geburt: Sonstige   ,After birth: other,Nominal,3987,F2,
+72,e018m6,73,Nach Geburt: Kinderklinik   ,After birth: children's hospital,Nominal,3987,F2,
+73,e018m6z,74,Nach Geburt: Nächte in Kinderklinik ,After birth: nights in children's hospital,Metrisch,1565,F3,
+74,e019,75,Subjektiver Gesundheitszustand (EFB)   ,Subjective health status (EFB),Ordinal,17413,F2,
+75,e02001,76,Jemals Keuchhusten    ,Ever whooping cough,Nominal,16330,F2,-7
+76,e02002,77,Jemals Masern    ,Ever measles,Nominal,16274,F2,-7
+77,e02003,78,Jemals Ziegenpeter (Mumps)   ,Ever Goat Peter (mumps),Nominal,16197,F2,-7
+78,e02004,79,Jemals Röteln    ,Ever rubella,Nominal,16227,F2,-7
+79,e02005,80,Jemals Windpocken    ,Ever chicken pox,Nominal,17040,F2,-7
+80,e02006,81,Jemals Scharlach    ,Ever scarlet fever,Nominal,16311,F2,-7
+81,e02007,82,Jemals Pfeiffersches Drüsenfieber   ,Ever mononucleosis,Nominal,16123,F2,-7
+82,e02008,83,Jemals Herpes-Infektion    ,Ever herpes infection,Nominal,16346,F2,-7
+83,e02009,84,Jemals Salmonelleninfektion    ,Ever had salmonella infection,Nominal,16211,F2,-7
+84,e02010,85,Jemals Hepatitis (ohne Neugeborenen-Gelbsucht)  ,Ever had hepatitis (excluding neonatal jaundice),Nominal,16187,F2,-7
+85,e0211,86,Jemals Heuschnupfen    ,Ever had hay fever,Nominal,16893,F2,-7
+86,e0212,87,Jemals Neurodermitis    ,Ever neurodermatitis,Nominal,16859,F2,-7
+87,e0213,88,Jemals Allerg. Kontaktekzem   ,Ever allergy. contact dermatitis,Nominal,16677,F2,-7
+88,e0214,89,Jemals Psoriasis (Schuppenflechte)   ,Ever psoriasis (psoriasis),Nominal,16499,F2,-7
+89,e022,90,Leibliche Eltern: Allergien   ,Birth parents: allergies,Nominal,17247,F2,-7
+90,e022mm1,91,Mutter: Heuschnupfen    ,Mother: hay fever,Nominal,6322,F2,-7
+91,e022mm2,92,Mutter: Neurodermitis    ,Mother: neurodermatitis,Nominal,6322,F2,-7
+92,e022mm3,93,Mutter: Allergisches Asthma   ,Mother: Allergic asthma,Nominal,6322,F2,-7
+93,e022vm1,94,Vater: Heuschnupfen    ,Father: hay fever,Nominal,6322,F2,-7
+94,e022vm2,95,Vater: Neurodermitis    ,Father: neurodermatitis,Nominal,6322,F2,-7
+95,e022vm3,96,Vater: Allergisches Asthma   ,Father: Allergic asthma,Nominal,6322,F2,-7
+96,e023,97,Andere Personen im HH: Allergien ,Other people in HH: allergies,Nominal,16951,F2,-7
+97,e024z1,98,"Erkältung, grippaler Infekt (EFB)  ","Common cold, common cold (EFB)",Metrisch,16935,F2,-7
+98,e024z2,99,Angina (Mandelentzündung) (EFB)   ,Angina (tonsillitis) (EFB),Metrisch,16926,F2,-7
+99,e024z3,100,Herpes-Infektion (EFB)    ,Herpes Infection (EFB),Metrisch,16948,F2,-7
+100,e024z4,101,Bronchitis (nicht bei Asthma) (EFB) ,Bronchitis (not in asthma) (EFB),Metrisch,16922,F2,-7
+101,e024z5,102,Pseudokrupp/Kruppsyndrom     ,pseudocroup/croup syndrome,Metrisch,8612,F2,-7
+102,e024z6,103,"Durchfall, Magen-Darm-Infektion (EFB)   ","diarrhea, gastrointestinal infection (EFB)",Metrisch,16935,F2,-7
+103,e024z7,104,Blasen- und/oder Harnwegsentzündung (EFB)  ,Bladder and/or urinary tract infection (EFB),Metrisch,16944,F2,-7
+104,e024z8,105,Eitrige Bindehautentzündung (EFB)   ,Purulent conjunctivitis (EFB),Metrisch,16950,F2,-7
+105,e024z9,106,Mund- und/oder Windelsoor   ,Oral and/or diaper thrush,Metrisch,2257,F2,-7
+106,e0251,107,Kurzsichtigkeit     ,myopia,Nominal,16588,F2,-7
+107,e0252,108,Weitsichtigkeit     ,farsightedness,Nominal,16201,F2,-7
+108,e0253,109,Hornhautverkrümmung     ,astigmatism,Nominal,16118,F2,-7
+109,e0254,110,Schielen     ,squinting,Nominal,16047,F2,-7
+110,e025a,111,Sehhilfe     ,visual aid,Nominal,3696,F2,-7
+111,e025az1,112,Sehhilfe: Alter (Jahre)   ,Corrective lenses: age (years),Metrisch,3050,F2,
+112,e025az2,113,Sehhilfe: Alter (Monate)   ,Corrective lenses: age (months),Metrisch,29,F2,-7
+113,e026,114,Dauerhaft schwerhörig (EFB)   ,Permanently Hard of Hearing (EFB),Nominal,12026,F2,-7
+114,e026a,115,Hörgerät (EFB)    ,hearing aid (EFB),Nominal,105,F2,-7
+115,e027,116,Hyperaktivität     ,hyperactivity,Nominal,13935,F2,-7
+116,e027m1,117,Hyperaktivität: Diagnose durch Arzt  ,Hyperactivity: diagnosis by doctor,Nominal,832,F2,-7
+117,e027m2,118,Hyperaktivität: Diagnose durch Psychologe  ,Hyperactivity: diagnosis by psychologist,Nominal,832,F2,-7
+118,e027m3,119,Hyperaktivität: Diagnose durch andere  ,Hyperactivity: Diagnosis by others,Nominal,832,F2,-7
+119,ADHSFall,120,ADHS (von Arzt oder Psychologe festgestellt),ADHD (determined by doctor or psychologist),Nominal,13487,F2,-7
+120,ADHSVer,121,ADHS-Verdachtsfall     ,ADHD suspected case,Nominal,12778,F2,-7
+121,e028,122,Jemals weitere Krankheiten (EFB)  ,Ever Other Diseases (EFB),Nominal,16269,F2,-7
+122,e029z,123,Nächte im Krankenhaus (EFB)  ,Nights in the Hospital (EFB),Metrisch,17089,F3,-7
+123,CSHCN,124,CSHCN-Screener: Chronische Krankheiten   ,CSHCN Screener: Chronic Diseases,Nominal,16137,F2,-7
+124,e030a1,125,Medikamenteneinnahme (vom Arzt verschrieben)  ,Medication (prescribed by the doctor),Nominal,16580,F2,-7
+125,e030a2,126,Medikamenteneinnahme: Wegen gesundheitl. Probleme  ,Medication intake: Because of health problems,Nominal,2296,F2,-7
+126,e030a3,127,Medikamenteneinnahme: Problemdauer mind. 12 Monate ,Taking medication: Problem duration at least 12 months,Nominal,2275,F2,-7
+127,e030b1,128,Mehr medizin. Versorgung usw. als üblich,more medicine. supply etc than usual,Nominal,16528,F2,-7
+128,e030b2,129,Mehr Versorgung: Wegen gesundheitl. Probleme ,More supply: Because of health. problems,Nominal,1036,F2,-7
+129,e030b3,130,Mehr Versorgung: Problemdauer mind. 12 Monate,More care: problem duration at least 12 months,Nominal,1032,F2,-7
+130,e030c1,131,"Eingeschränkt, Dinge zu tun  ",Restricted to do things,Nominal,16540,F2,-7
+131,e030c2,132,Eingeschränkt: Wegen gesundheitl. Probleme  ,Restricted: Because of health. problems,Nominal,613,F2,-7
+132,e030c3,133,Eingeschränkt: Problemdauer mind. 12 Monate ,Restricted: problem duration at least 12 months,Nominal,609,F2,-7
+133,e030d1,134,Benötigt spezielle Therapie   ,Requires special therapy,Nominal,16526,F2,-7
+134,e030d2,135,Spezielle Therapie: Wegen gesundheitl. Probleme ,Special therapy: Because of health. problems,Nominal,1304,F2,-7
+135,e030d3,136,Spezielle Therapie: Problemdauer mind. 12 Monate,Special therapy: problem duration at least 12 months,Nominal,1307,F2,-7
+136,e030e1,137,"Emotionale, Entwicklungs- oder Verhaltensprobleme  ","Emotional, developmental, or behavioral problems",Nominal,16278,F2,-7
+137,e030e3,138,Emotionale etc. Probleme: Problemdauer mind. 12,Emotional etc. problems: problem duration at least 12,Nominal,714,F2,-7
+138,e031,139,Amtlich anerkannte Behinderung   ,Officially recognized disability,Nominal,17274,F2,-7
+139,e032,140,Schmerzen i. d. letzten 3 Monaten,Pain id last 3 months,Nominal,7852,F2,-7
+140,e03301,141,Kopfschmerzen (EFB)    ,Headache (EFB),Ordinal,4250,F2,-7
+141,e03302,142,Rückenschmerzen (EFB)    ,back pain (EFB),Ordinal,3840,F2,-7
+142,e03303,143,Ohrenschmerzen (EFB)    ,ear pain (EFB),Ordinal,3983,F2,-7
+143,e03304,144,Augenschmerzen (EFB)    ,eye pain (EFB),Ordinal,3799,F2,-7
+144,e03305,145,Bauchschmerzen (EFB)    ,abdominal pain (EFB),Ordinal,4411,F2,-7
+145,e03306,146,Schmerzen im Unterleib (EFB)  ,Lower Abdominal Pain (EFB),Ordinal,3799,F2,-7
+146,e03307,147,Armschmerzen (EFB)    ,Arm Pain (EFB),Ordinal,3807,F2,-7
+147,e03308,148,Beinschmerzen (EFB)    ,Leg pain (EFB),Ordinal,4074,F2,-7
+148,e03309,149,Schmerzen im Brustkorb (EFB)  ,Chest Pain (EFB),Ordinal,3809,F2,-7
+149,e03310,150,Halsschmerzen (EFB)    ,Sore throat (EFB),Ordinal,4131,F2,-7
+150,e03311,151,Zahnschmerzen (EFB)    ,Toothache (EFB),Ordinal,3895,F2,-7
+151,e034c,152,Hauptschmerz (kodiert) (EFB)   ,Main pain (coded) (EFB),Nominal,4664,F2,
+152,e035,153,Wie oft Hauptschmerz (EFB)  ,How often main pain (EFB),Ordinal,3965,F2,-7
+153,e035z,154,Wieviel Mal unregelmäßig Hauptschmerz (EFB) ,How many times irregular main pain (EFB),Metrisch,656,F2,-7
+154,e036,155,Erstes Auftreten des Hauptschmerzes (EFB) ,First onset of main pain (EFB),Ordinal,2930,F2,-7
+155,e037z,156,Stärke des Hauptschmerzes (Skala in mm),Severity of main pain (scale in mm),Metrisch,2935,F3,-7
+156,e0380,157,Hauptschmerz: Menstruation (EFB)   ,Main Pain: Menstruation (EFB),Nominal,1367,F2,-7
+157,e0381,158,Hauptschmerz: Erkrankung (EFB)   ,Main pain: disease (EFB),Nominal,2774,F2,-7
+158,e0382,159,Hauptschmerz: Verletzung (EFB)   ,Main Pain: Injury (EFB),Nominal,2586,F2,-7
+159,e0383,160,Hauptschmerz: Medizin. Behandlung/Operation (EFB)  ,Main pain: medicine. Treatment/Surgery (EFB),Nominal,2573,F2,-7
+160,e0384,161,Hauptschmerz: Lärm (EFB)   ,Main Pain: Noise (EFB),Nominal,2509,F2,-7
+161,e0385,162,Hauptschmerz: Sportl. Betätigung (EFB)  ,Main pain: sports. Actuation (EFB),Nominal,2549,F2,-7
+162,e0386,163,Hauptschmerz: Wechsel d. Schule/Betreuungseinrichtung  ,Main pain: change d. school/care facility,Nominal,2498,F2,-7
+163,e0387,164,Hauptschmerz: Trennung/Scheidung d. Eltern (EFB) ,Main pain: separation/divorce d. Parents (EFB),Nominal,2496,F2,-7
+164,e0388,165,Hauptschmerz: Tod eines Angehörigen (EFB) ,Major Pain: Death of a Relative (EFB),Nominal,2492,F2,-7
+165,e0389,166,Hauptschmerz: Umzug (EFB)   ,Main Pain: Moving (EFB),Nominal,2475,F2,-7
+166,e03901,167,Medikamente wg. Schmerz (EFB)  ,medication according to Pain (EFB),Ordinal,2882,F2,-7
+167,e03902,168,Arztbesuch wg. Schmerz (EFB)  ,visit to the doctor due to Pain (EFB),Ordinal,2890,F2,-7
+168,e03903,169,Nicht in Kita/Schule wg. Schmerz (EFB),Not in daycare/school due to Pain (EFB),Ordinal,2849,F2,-7
+169,e03904,170,Freunde nicht treffen wg. Schmerz (EFB),not meeting friends because Pain (EFB),Ordinal,2829,F2,-7
+170,e03905,171,Keinen Appetit wg. Schmerz (EFB) ,No appetite because Pain (EFB),Ordinal,2849,F2,-7
+171,e03906,172,Schlafprobleme wg. Schmerz (EFB)  ,sleep problems due Pain (EFB),Ordinal,2852,F2,-7
+172,e03907,173,Hobbys nicht ausüben wg. Schmerz (EFB),Do not exercise hobbies because Pain (EFB),Ordinal,2827,F2,-7
+173,e03908,174,Elternteil nicht zur Arbeit wg. Schmerz,Parent not at work due to pain,Ordinal,2814,F2,-7
+174,e03909,175,Sich hingelegt wg. Schmerz (EFB) ,lying down because Pain (EFB),Ordinal,2870,F2,-7
+175,e03910,176,Anders beeinträchtigt wg. Schmerz (EFB) ,Differently impaired due to Pain (EFB),Ordinal,2665,F2,-7
+176,e03910c,177,Beeinträchtigung wg. Schmerz (kodiert) (EFB) ,impairment due to Pain (Coded) (EFB),Nominal,201,F2,-7
+177,e03911,178,Folgendes getan wg. Schmerz (EFB) ,done the following according to Pain (EFB),Ordinal,453,F2,-7
+178,e03911c,179,Was getan wg. Schmerz (kodiert) (EFB),What done according to Pain (Coded) (EFB),Nominal,561,F2,-7
+179,e040,180,Unfall mit ärztlicher Behandlung i. d.,Accident with medical treatment id,Nominal,17254,F2,
+180,e041,181,Unfallort     ,accident location,Nominal,2462,F2,
+181,e041c,182,Sonstiger Unfallort (codiert)   ,Other accident location (coded),Nominal,71,F2,
+182,e04201,183,Sturz in der Ebene  ,fall on the plain,Nominal,2444,F2,
+183,e04202,184,Sturz aus der Höhe  ,fall from a height,Nominal,2444,F2,
+184,e04202a,185,Sturz aus der Höhe (detailliert) ,Fall from a height (detailed),Nominal,670,F2,
+185,e04203,186,Gewalt bei tätlicher Auseinandersetzung  ,Violence in a physical altercation,Nominal,2444,F2,
+186,e04203a,187,Gewalt bei tätlicher Auseinandersetzung (detailliert) ,Violence during physical altercation (detailed),Nominal,131,F2,
+187,e04204,188,Zusammenstoß/Zusammenprall     ,collision/collision,Nominal,2444,F2,
+188,e04204a,189,Zusammenstoß/Zusammenprall (detailliert)    ,Crash/Clash (Detailed),Nominal,531,F2,
+189,e04205,190,Einklemmen/Einquetschen     ,Pinching/squeezing,Nominal,2444,F2,
+190,e04206,191,Verletzen an/mit scharfen/spitzen Gegenständen  ,Injuring on/with sharp/pointed objects,Nominal,2444,F2,
+191,e04207,192,Badeunfall     ,swimming accident,Nominal,2444,F2,
+192,e04208,193,Verkehrsunfall     ,traffic accident,Nominal,2444,F2,
+193,e04208a,194,Verkehrsunfall (detailliert)    ,Traffic accident (detailed),Nominal,193,F2,
+194,e04209,195,"Verbrennung, Verbrühung    ","burning, scalding",Nominal,2444,F2,
+195,e04209a,196,"Verbrennung, Verbrühung (detailliert)   ","Combustion, scalding (detailed)",Nominal,85,F2,
+196,e04210,197,Elektrischer Strom    ,Electrical current,Nominal,2444,F2,
+197,e04211,198,Luftnot     ,shortness of breath,Nominal,2444,F2,
+198,e04211a,199,Luftnot (detailliert)    ,Shortness of breath (detailed),Nominal,14,F2,
+199,e04212,200,"Vergiftung, Verätzung    ","poisoning, chemical burns",Nominal,2444,F2,
+200,e04212a,201,"Vergiftung, Verätzung (detailliert)   ","Poisoning, chemical burn (detailed)",Nominal,26,F2,
+201,e04213,202,Fremdkörper     ,foreign body,Nominal,2444,F2,
+202,e04214,203,Verletzung durch Tiere   ,animal injury,Nominal,2444,F2,
+203,e04214a,204,Verletzung durch Tiere (detailliert)  ,Animal Injury (Detailed),Nominal,68,F2,
+204,e04215,205,Herabgefallener Gegenstand    ,fallen object,Nominal,2444,F2,
+205,e04216,206,Sonstiger Unfall    ,Another accident,Nominal,2444,F2,
+206,e043m01,207,Schädelprellung     ,skull contusion,Nominal,2315,F2,
+207,e043m02,208,Gehirnerschütterung     ,concussion,Nominal,2315,F2,
+208,e043m03,209,Knochenbrüche     ,broken bones,Nominal,2315,F2,
+209,e043m04,210,Prellung/Verrenkung/Zerrung     ,Bruise/dislocation/strain,Nominal,2315,F2,
+210,e043m05,211,Offene Wunde    ,Open wound,Nominal,2315,F2,
+211,e043m06,212,Quetschungen     ,bruises,Nominal,2315,F2,
+212,e043m07,213,Innere Verletzungen    ,Internal injuries,Nominal,2315,F2,
+213,e043m08,214,"Vergiftung, Verätzung    ","poisoning, chemical burns",Nominal,2315,F2,
+214,e043m09,215,Fremdkörperverletzung     ,foreign body injury,Nominal,2315,F2,
+215,e043m10,216,"Ärztlich keine Verletzung festgestellt, unklar ","Medically no injury found, unclear",Nominal,2315,F2,
+216,e044,217,Unfall: Behandlung im Krankenhaus  ,Accident: Hospital treatment,Nominal,2459,F2,
+217,e044z,218,Zur Behandlung: Nächte im Krankenhaus? ,For treatment: nights in the hospital?,Metrisch,318,F3,
+218,e047z1,219,Alter (Monate): Freies Sitzen  ,Age (months): Free sitting,Metrisch,4397,F2,"-7, -8"
+219,e0471,220,Freies Sitzen    ,Free sitting,Nominal,6162,F2,-7
+220,e047z2,221,Alter (Monate): Freies Laufen  ,Age (months): Free walking,Metrisch,5027,F2,"-7, -8"
+221,e0472,222,Freies Laufen    ,free running,Nominal,6208,F2,-7
+222,e047z3,223,Alter (Monate): Erste Worte mit Bedeutung,Age (months): First words of meaning,Metrisch,3581,F2,"-7, -8"
+223,e0473,224,Erste Worte mit Bedeutung  ,First words with meaning,Nominal,6056,F2,-7
+224,e047z4,225,Alter (Monate): Allein aus Tasse trinken,Age (months): Drink alone from cup,Metrisch,3250,F2,"-7, -8"
+225,e0474,226,Allein aus einer Tasse trinken ,Drink alone from a cup,Nominal,6037,F2,-7
+226,e047z5,227,Alter (Monate): Tagsüber trocken  ,Age (months): Dry during the day,Metrisch,3593,F2,"-7, -8"
+227,e0475,228,Tagsüber trocken    ,Dry during the day,Nominal,6100,F2,-7
+228,e047z6,229,Alter (Monate): Nachts trocken  ,Age (months): Dry at night,Metrisch,2811,F2,"-7, -8"
+229,e0476,230,Nachts trocken    ,dry at night,Nominal,6070,F2,-7
+230,e047z7,231,Alter (Monate): Ganz sauber  ,Age (months): Quite clean,Metrisch,2836,F2,"-7, -8"
+231,e0477,232,Ganz sauber    ,Completely clean,Nominal,5977,F2,-7
+232,e048,233,(Derzeitige) Entwicklung    ,(Current) development,Ordinal,13069,F2,-7
+233,e048a,234,Entwicklung i.d. Vorschulzeit   ,development in preschool,Ordinal,10273,F2,-7
+234,e048b,235,Entwicklung i.d. Grundschulzeit   ,Development during elementary school,Ordinal,3464,F2,-7
+235,kw100_e,236,KINDL- Körperliches Wohlbefinden 100 (EFB) ,KINDL- Physical well-being 100 (EFB),Metrisch,14157,F6.2,"-7,00"
+236,pw100_e,237,KINDL- Psychisches Wohlbefinden 100 (EFB) ,KINDL- Mental Wellbeing 100 (EFB),Metrisch,14237,F6.2,"-7,00"
+237,sel100_e,238,KINDL- Selbstwert 100 (EFB)  ,KINDL Self-Esteem 100 (EFB),Metrisch,14236,F6.2,"-7,00"
+238,fam100_e,239,KINDL- Familie 100 (EFB)  ,KINDL Family 100 (EFB),Metrisch,14337,F6.2,"-7,00"
+239,fre100_e,240,KINDL- Freunde 100 (EFB)  ,KINDL Friends 100 (EFB),Metrisch,14315,F6.2,"-7,00"
+240,sch100_e,241,KINDL- Schule 100 (EFB)  ,KINDL School 100 (EFB),Metrisch,13227,F6.2,"-7,00"
+241,tot100_e,242,KINDL- Total Quality of life 100 (EFB),KINDL - Total Quality of Life 100 (EFB),Metrisch,14291,F6.2,"-7,00"
+242,emo_e,243,Skalenwert SDQ emotionale Probleme (EFB) ,Scale value SDQ emotional problems (EFB),Metrisch,14497,F3,-7
+243,verh_e,244,Skalenwert SDQ Verhaltensprobleme (EFB)  ,Scale Score SDQ Behavioral Problems (EFB),Metrisch,14502,F3,-7
+244,hyp_e,245,Skalenwert SDQ Hyperaktivität (EFB)  ,Score SDQ Hyperactivity (EFB),Metrisch,14498,F3,-7
+245,peer_e,246,Skalenwert SDQ Peer-Probleme (EFB)  ,Scale Score SDQ Peer Problems (EFB),Metrisch,14496,F3,-7
+246,proso_e,247,Skalenwert SDQ prosoziales Verhalten (EFB) ,Scale value SDQ prosocial behavior (EFB),Metrisch,14529,F3,-7
+247,totsdq_e,248,Gesamtproblemwert SDQ (EFB)   ,Total Problem Score SDQ (EFB),Metrisch,14477,F3,-7
+248,emoauf_e,249,SDQ emotionale Probleme (EFB)  ,SDQ Emotional Problems (EFB),Ordinal,14497,F2,-7
+249,verauf_e,250,SDQ Verhaltensprobleme (EFB)   ,SDQ Behavioral Problems (EFB),Ordinal,14502,F2,-7
+250,hypauf_e,251,SDQ Hyperaktivität (EFB)   ,SDQ Hyperactivity (EFB),Ordinal,14498,F2,-7
+251,peeauf_e,252,SDQ Peer-Probleme (EFB)   ,SDQ Peer Issues (EFB),Ordinal,14496,F2,-7
+252,proauf_e,253,SDQ prosoziales Verhalten (EFB)  ,SDQ prosocial behavior (EFB),Ordinal,14529,F2,-7
+253,sdqauf_e,254,auffällig SDQ Gesamtproblemwert (EFB)  ,Conspicuous SDQ Total Problem Score (EFB),Ordinal,14477,F2,-7
+254,e057_k,255,Wohnungsgröße (qm)(Klassiert)    ,Apartment size (sqm)(classified),Ordinal,16925,F3,-8
+255,e058_k,256,Personen im Haushalt(Klassiert)   ,People in the household (classified),Ordinal,17239,F3,-8
+256,e059,257,Schimmelige Wände    ,Moldy walls,Nominal,17280,F2,
+257,e060,258,Haustiere     ,pets,Nominal,17309,F2,
+258,e060m1,259,Katze     ,cat,Nominal,7931,F2,
+259,e060m2,260,Hund     ,dog,Nominal,7931,F2,
+260,e060m3,261,Kleinsäugetiere     ,small mammals,Nominal,7931,F2,
+261,e060m4,262,Vögel     ,birds,Nominal,7931,F2,
+262,e060m5,263,"Fische/Wassertiere, Terrarientiere    ","Fish/aquatic animals, terrarium animals",Nominal,7931,F2,
+263,e061,264,Betreuung ausschließlich innerhalb Familie  ,Family care only,Nominal,17250,F2,
+264,e061m1,265,Betreuung in Kita/Kindergarten   ,Care in daycare/kindergarten,Nominal,12319,F2,
+265,e061m2,266,In Tagesbetreuung    ,In day care,Nominal,12319,F2,
+266,e061z1,267,Alter zu Betreuungsbeginn (Jahre)  ,Age at start of care (years),Metrisch,12540,F2,-8
+267,e061z2,268,Alter zu Betreuungsbeginn (Monate)  ,Age at start of care (months),Metrisch,4999,F2,"-7, -8"
+268,e103,269,Betreuung nach der Schule  ,after school care,Nominal,7013,F2,-7
+269,e0621,270,Häufigkeit: Spielen im Freien  ,Frequency: playing outdoors,Ordinal,7840,F2,-7
+270,e0622,271,Häufigkeit: Sport treiben im Verein ,Frequency: doing sports in a club,Ordinal,7698,F2,-7
+271,e0623,272,Häufigkeit: Sport treiben außerhalb Verein ,Frequency: doing sports outside of a club,Ordinal,7571,F2,-7
+272,e0631,273,Fernsehen an Wochentagen   ,TV on weekdays,Ordinal,10799,F2,-7
+273,e0632,274,Fernsehen an Sonn-/Feiertagen   ,TV on Sundays/holidays,Ordinal,10610,F2,-7
+274,e0641,275,Computerspielen an Wochentagen   ,Computer games on weekdays,Ordinal,10657,F2,-7
+275,e0642,276,Computerspielen an Sonn-/Feiertagen   ,Computer games on Sundays/holidays,Ordinal,10564,F2,-7
+276,e065z,277,Schlaf pro Tag insges. (Stunden) ,Total sleep per day (hours),Metrisch,10525,F2,"-7, -8"
+277,e065,278,Schlafschwierigkeiten (EFB)    ,Difficulty sleeping (EFB),Nominal,10378,F2,-7
+278,e065a,279,Einschlafschwierigkeiten (EFB)    ,Difficulty falling asleep (EFB),Nominal,1816,F2,-7
+279,e065b,280,Durchschlafschwierigkeiten (EFB)    ,Difficulty staying asleep (EFB),Nominal,1816,F2,-7
+280,e065c,281,Aufwachen i.d. Nacht (EFB)  ,Wake up in the night (EFB),Ordinal,2293,F2,-7
+281,e0941,282,Spielen (in Räumen)   ,play (in rooms),Ordinal,2661,F2,-7
+282,e0942,283,Säuglings-/Kleinkindschwimmen/Turnen     ,Infant/Toddler Swimming/Gymnastics,Ordinal,2463,F2,-7
+283,e0943,284,Spazieren gehen/ im Freien Spielen ,Go for walks/play outside,Ordinal,2660,F2,-7
+284,e0944,285,Singen und Musizieren   ,singing and making music,Ordinal,2574,F2,-7
+285,e0945,286,Bilderbücher angucken    ,look at picture books,Ordinal,2605,F2,-7
+286,e0946,287,Fernsehen/ Video    ,television/video,Ordinal,2571,F2,-7
+287,e0947,288,Malen/Basteln     ,Painting/Crafts,Ordinal,2549,F2,-7
+288,e0948,289,Ins-Bett-geh-Ritual     ,Going to bed ritual,Ordinal,2591,F2,-7
+289,e099n,290,Schulbesuch zur Zeit (EFB)  ,School attendance at the time (EFB),Nominal,10501,F2,-7
+290,e099z,291,Wievielte Klasse (EFB)   ,What class (EFB),Metrisch,10150,F2,"-7, -8"
+291,e100,292,Einschulung     ,school enrollment,Nominal,10607,F2,-7
+292,e101,293,Schuldurchlauf     ,school run,Nominal,10590,F2,-7
+293,e102,294,Schulleistungen     ,school performance,Ordinal,1678,F2,-7
+294,e102z1,295,Letzte Zeugnisnote Mathematik   ,Last grade in mathematics,Metrisch,8620,F2,"-7, -8"
+295,e102z2,296,Letzte Zeugnisnote Deutsch   ,Last grade in German,Metrisch,8605,F2,"-7, -8"
+296,e102z3,297,Letzte Punktezahl Mathematik   ,Last score math,Metrisch,136,F2,"-7, -8"
+297,e102z4,298,Letzte Punktezahl Deutsch   ,Last score German,Metrisch,137,F2,"-7, -8"
+298,e106,299,Schultyp (Kind) (Ausl-KurzFB Eltern)  ,Type of school (child) (Ausl-KurzFB parents),Ordinal,105,F2,
+299,e125,300,Jetzige Tätigkeit (Kind) (Ausl-KurzFB Eltern) ,Current job (child) (Ausl-KurzFB parents),Nominal,47,F2,
+300,e066,301,Wurde bzw. wird Ihr Kind gestillt,Has your child been or will you be breastfed?,Nominal,17196,F2,
+301,e066a,302,Kind wird zZ. noch gestillt ,child is currently still breastfed,Nominal,2201,F2,-7
+302,e066z,303,Bis zu welchem Lebensmonat gestillt ,Up to what month of life breastfed,Metrisch,12515,F2,-8
+303,e067,304,Wie lange voll gestillt  ,How long fully breastfed,Nominal,12925,F2,
+304,stillv,305,Jemals voll gestillt   ,Ever fully breastfed,Ordinal,15892,F2,
+305,e067z,306,Voll gestillt bis zum ... Monat,Fully breastfed up to ... month,Metrisch,10684,F2,-8
+306,Stillen,307,Stillen (zusammengefasst)    ,breastfeeding (summary),Ordinal,17035,F2,
+307,e0681,308,"Ernährung ohne Fleisch, Geflügel, Wurst ","Diet without meat, poultry, sausage",Nominal,16791,F2,-7
+308,e0682,309,Ernährung ohne Fisch   ,Diet without fish,Nominal,16681,F2,-7
+309,e0683,310,Ernährung ohne Milch u. Milchprodukte ,Diet without milk and dairy products,Nominal,16639,F2,-7
+310,e0684,311,Ernährung ohne Eier   ,Diet without eggs,Nominal,16655,F2,-7
+311,e068z1,312,Alter (Jahre): Fleischlose Ernährung  ,Age (years): Meatless diet,Metrisch,242,F2,"-7, -8"
+312,e068z2,313,Alter (Monate): Fleischlose Ernährung  ,Age (months): Meatless diet,Metrisch,32,F2,"-7, -8"
+313,e069,314,Elterneinschätzung des Gewichts   ,parental assessment of weight,Ordinal,17127,F2,-7
+314,e095,315,Flaschennahrung     ,bottle feeding,Nominal,2581,F2,-7
+315,e095z,316,Flaschennahrung: Seit ... Lebensmonat  ,Bottle feeding: Since ... month of life,Metrisch,982,F2,"-7, -8"
+316,e095z1,317,Flaschennahrung: Vom ... Lebensmonat  ,Bottle feeding: From ... month of life,Metrisch,1044,F2,"-7, -8"
+317,e095z2,318,Flaschennahrung: Bis zum ... Lebensmonat ,Bottle feeding: Up to ... months of age,Metrisch,1005,F2,"-7, -8"
+318,e096a,319,Wasser aus häusl. Leitung  ,water from domestic management,Nominal,2043,F2,-7
+319,e096b,320,Abgepacktes Wasser    ,packaged water,Nominal,2043,F2,-7
+320,e09701,321,Säuglingsflaschennahrung     ,infant formula,Nominal,2427,F2,-7
+321,e09702,322,Hypoallerg. Flaschennahrung    ,hypoallergenic bottle feeding,Nominal,2346,F2,-7
+322,e09703,323,Probiot. Flaschennahrung    ,probiotic. bottle feeding,Nominal,2282,F2,-7
+323,e09704,324,Vollmilch     ,whole milk,Nominal,2363,F2,-7
+324,e09705,325,Fleischhalt. Kost    ,meat hold. fare,Nominal,2418,F2,-7
+325,e09706,326,Milchbrei     ,milk porridge,Nominal,2432,F2,-7
+326,e09707,327,Milchfreier Brei    ,Dairy Free Porridge,Nominal,2316,F2,-7
+327,e09708,328,"Gemüsebrei, Gemüse    ","Vegetable puree, vegetables",Nominal,2468,F2,-7
+328,e09709,329,Fruchtsaft (-getränk)    ,fruit juice (drink),Nominal,2423,F2,-7
+329,e09710,330,Früchte     ,fruit,Nominal,2421,F2,-7
+330,e09711,331,Vollkornprodukte     ,whole grain products,Nominal,2374,F2,-7
+331,e09712,332,Tee (gesüßt)    ,tea (sweetened),Nominal,2338,F2,-7
+332,e09713,333,Tee (ungesüßt)    ,tea (unsweetened),Nominal,2426,F2,-7
+333,e09714,334,Familienkost     ,family fare,Nominal,2403,F2,-7
+334,e097z01,335,Säuglingsflaschennahrung: Ab ... Monat  ,Infant formula: From ... month,Metrisch,1758,F2,"-7, -8"
+335,e097z02,336,Hypoallerg. Flaschennahrung: Ab ... Monat ,hypoallergenic Bottle feeding: From ... month,Metrisch,512,F2,"-7, -8"
+336,e097z03,337,Probiot. Flaschennahrung: Ab ... Monat ,probiotic. Bottle feeding: From ... month,Metrisch,337,F2,"-7, -8"
+337,e097z04,338,Vollmilch: Ab ... Monat  ,Whole milk: From ... month,Metrisch,1429,F2,"-7, -8"
+338,e097z05,339,Fleischhalt. Kost: Ab ... Monat ,meat hold. Diet: From ... month,Metrisch,2151,F2,"-7, -8"
+339,e097z06,340,Milchbrei: Ab ... Monat  ,Milk porridge: From ... month,Metrisch,1988,F2,"-7, -8"
+340,e097z07,341,Milchfreier Brei: Ab ... Monat ,Dairy-free porridge: From ... month,Metrisch,1201,F2,"-7, -8"
+341,e097z08,342,"Gemüsebrei, Gemüse: Ab ... Monat ","Vegetable puree, vegetables: From ... month",Metrisch,2353,F2,"-7, -8"
+342,e097z09,343,Fruchtsaft (-getränk): Ab ... Monat ,Fruit juice (drink): From ... month,Metrisch,1967,F2,"-7, -8"
+343,e097z10,344,Früchte: Ab ... Monat  ,Fruits: From ... month,Metrisch,2196,F2,"-7, -8"
+344,e097z11,345,Vollkornprodukte: Ab ... Monat  ,Whole grain products: From ... month,Metrisch,1818,F2,"-7, -8"
+345,e097z12,346,Tee (gesüßt): Ab ... Monat ,Tea (sweetened): From ... month,Metrisch,783,F2,"-7, -8"
+346,e097z13,347,Tee (ungesüßt): Ab ... Monat ,Tea (unsweetened): From ... month,Metrisch,1956,F2,"-7, -8"
+347,e097z14,348,Familienkost: Ab ... Monat  ,Family diet: From ... month,Metrisch,1925,F2,"-7, -8"
+348,E070M,349,Rauchen detailliert: Mutter   ,Smoking detailed: mother,Ordinal,17113,F2,-7
+349,e070ma,350,Rauchen ja/nein: Mutter   ,Smoking yes/no: mother,Nominal,17266,F2,-7
+350,E070V,351,Rauchen detailliert: Vater   ,Smoking detailed: father,Ordinal,16254,F2,-7
+351,e070va,352,Rauchen ja/nein: Vater   ,Smoking yes/no: father,Nominal,16404,F2,-7
+352,E071,353,Rauchen in der Wohnung  ,smoking in the apartment,Ordinal,17173,F2,-7
+353,E072,354,Rauchen der Mutter in Schwangerschaft ,Smoking by the mother during pregnancy,Ordinal,17088,F2,-7
+354,E073,355,Alkoholkonsum der Mutter in Schwangerschaft ,Alcohol consumption by the mother during pregnancy,Ordinal,17145,F2,-7
+355,E074,356,Rauchen der Mutter in Stillzeit ,Smoking by the mother during breastfeeding,Nominal,17043,F2,-7
+356,E104,357,Schon einmal Alkohol getrunken (EFB) ,Have you ever drunk alcohol (EFB),Nominal,6338,F2,-7
+357,E1051,358,Häufigkeit Bier (EFB)   ,Frequency of beer (EFB),Ordinal,2842,F2,-7
+358,E1052,359,Häufigkeit Wein/Sekt (EFB)   ,Frequency of wine/sparkling wine (EFB),Ordinal,2810,F2,-7
+359,E1053,360,Häufigkeit Schnaps (EFB)   ,Frequency Schnaps (EFB),Ordinal,2632,F2,-7
+360,E045,361,Helm beim Fahrradfahren (EFB)  ,Helmet while cycling (EFB),Nominal,14328,F2,-7
+361,E0461,362,Knie- und Armschoner beim Fahren mit,Knee and arm pads when driving with,Nominal,14243,F2,-7
+362,E0462,363,Helm beim Fahren mit Inline-Skates (EFB),Helmet when riding inline skates (EFB),Nominal,13676,F2,-7
+363,E075,364,Zähneputzen     ,Brush teeth,Ordinal,10630,F2,-7
+364,E076m1,365,Zahnpasta mit Fluor (EFB)  ,Toothpaste with fluoride (EFB),Nominal,9486,F2,-7
+365,E076m2,366,Zahnpasta ohne Fluor (EFB)  ,Toothpaste without fluoride (EFB),Nominal,9486,F2,-7
+366,E076m3,367,Keine Zahnpasta (EFB)   ,No Toothpaste (EFB),Nominal,9486,F2,-7
+367,E076,368,Wattestäbchen (EFB)    ,cotton buds (EFB),Nominal,1939,F2,-7
+368,E077,369,Zur Kontrolle zum Zahnarzt (EFB) ,To check up at the dentist (EFB),Ordinal,16425,F2,
+369,E077a,370,In kieferorth. Behandlung (EFB)  ,In orthodontic. Treatment (EFB),Nominal,10837,F2,-7
+370,E078,371,Schwerer Sonnenbrand    ,Severe sunburn,Nominal,17221,F2,
+371,E098,372,Nuckelflasche zur Beruhigung   ,Baby bottle to calm down,Nominal,2644,F2,-7
+372,E098a,373,Nuckelflasche tagsüber    ,feeding bottle during the day,Ordinal,366,F2,-7
+373,E098b,374,Nuckelflasche nachts    ,feeding bottle at night,Ordinal,420,F2,-7
+374,E079,375,Letzte Arztinanspruchnahme (EFB)   ,Last doctor visit (EFB),Ordinal,13585,F2,-7
+375,E080,376,Ort: Arztinanspruchnahme (EFB)   ,Place: Doctor's use (EFB),Nominal,13464,F2,-7
+376,E081,377,In Anspruch genommener Arzt (EFB) ,Doctor used (EFB),Nominal,13495,F2,-7
+377,E0821,378,Arzt für Naturheilkunde (letzter Besuch) (EFB),Naturopathic doctor (last visit) (EFB),Nominal,12708,F2,-7
+378,E0822,379,Arzt mit Zusatzausb. Homöopathie (letzter Besuch),doctor with additional training Homeopathy (last visit),Nominal,12546,F2,-7
+379,E083m1,380,"Akute Krankheit, Unfall (EFB)  ","Acute illness, accident (EFB)",Nominal,12997,F2,-7
+380,E083m2,381,Chronische Krankheit (EFB)   ,Chronic Illness (EFB),Nominal,12997,F2,-7
+381,E083m3,382,Störung des Befindens (EFB)  ,Disorder of well-being (EFB),Nominal,12997,F2,-7
+382,E083m4,383,Beratung (z. B. Ernährung) (EFB) ,Counseling (e.g. nutrition) (EFB),Nominal,12997,F2,-7
+383,E083m5,384,Verordnung eines/r Medikaments/Behandlung (EFB)  ,Prescription of a drug/treatment (EFB),Nominal,12997,F2,-7
+384,E083m6,385,Vorsorgeuntersuchung/Impfung (EFB)    ,Medical check-up/vaccination (EFB),Nominal,12997,F2,-7
+385,E083m7,386,Kindergarten-/Schul(eingangs)untersuchung (EFB)    ,Kindergarten/school (entry) examination (EFB),Nominal,12993,F2,-7
+386,E084,387,Zufriedenheit mit Behandlung/Beratung (EFB)  ,Satisfaction with treatment/advice (EFB),Ordinal,13368,F2,-7
+387,E08501,388,Kinderarzt (EFB)    ,Pediatrician (EFB),Nominal,13655,F2,-7
+388,E085z01,389,Häufigkeit: Kinderarzt (EFB)   ,Frequency: Pediatrician (EFB),Metrisch,13325,F2,-7
+389,E08502,390,Arzt für Allgemeinmedizin/Prakt. Arzt (EFB) ,General Practitioner/Pract. Doctor (EFB),Nominal,13653,F2,-7
+390,E085z02,391,Häufigkeit: Prakt. Arzt (EFB)  ,Frequency: Practical. Doctor (EFB),Metrisch,13463,F2,-7
+391,E08503,392,Internist (Innere Medizin) (EFB)  ,Internist (internal medicine) (EFB),Nominal,13654,F2,-7
+392,E085z03,393,Häufigkeit: Internist (EFB)   ,Frequency: Internist (EFB),Metrisch,13607,F2,-7
+393,E08504,394,Augenarzt (EFB)    ,Ophthalmologist (EFB),Nominal,13652,F2,-7
+394,E085z04,395,Häufigkeit: Augenarzt (EFB)   ,Frequency: Ophthalmologist (EFB),Metrisch,13614,F2,-7
+395,E08505,396,Orthopäde (EFB)    ,Orthopedist (EFB),Nominal,13653,F2,-7
+396,E085z05,397,Häufigkeit: Orthopäde (EFB)   ,Frequency: Orthopedist (EFB),Metrisch,13634,F2,-7
+397,E08506,398,Hals-Nasen-Ohrenarzt (EFB)    ,Otorhinolaryngologist (EFB),Nominal,13652,F2,-7
+398,E085z06,399,Häufigkeit: HNO-Arzt (EFB)   ,Frequency: ENT doctor (EFB),Metrisch,13624,F2,-7
+399,E08507,400,Nervenarzt/Psychiater (EFB)    ,Neurologist/Psychiatrist (EFB),Nominal,13653,F2,-7
+400,E085z07,401,Häufigkeit: Nervenarzt (EFB)   ,Frequency: Neurologist (EFB),Metrisch,13644,F2,-7
+401,E08508,402,Psychologe (EFB)    ,Psychologist (EFB),Nominal,13653,F2,-7
+402,E085z08,403,Häufigkeit: Psychologe (EFB)   ,Frequency: Psychologist (EFB),Metrisch,13638,F2,-7
+403,E08509,404,Chirurg (EFB)    ,Surgeon (EFB),Nominal,13654,F2,-7
+404,E085z09,405,Häufigkeit: Chirurg (EFB)   ,Frequency: Surgeon (EFB),Metrisch,13645,F2,-7
+405,E08510,406,Hautarzt (EFB)    ,Dermatologist (EFB),Nominal,13654,F2,-7
+406,E085z10,407,Häufigkeit: Hautarzt (EFB)   ,Frequency: Dermatologist (EFB),Metrisch,13629,F2,-7
+407,E08511,408,Röntgenarzt (EFB)    ,Radiologist (EFB),Nominal,13653,F2,-7
+408,E085z11,409,Häufigkeit: Röntgenarzt (EFB)   ,Frequency: Radiologist (EFB),Metrisch,13648,F2,-7
+409,E08512,410,Urologe (EFB)    ,Urologist (EFB),Nominal,13653,F2,-7
+410,E085z12,411,Häufigkeit: Urologe (EFB)   ,Frequency: Urologist (EFB),Metrisch,13647,F2,-7
+411,E08515,412,"Amtsarzt, Schularzt usw. (EFB)  ","Public health officer, school doctor, etc. (EFB)",Nominal,13652,F2,-7
+412,E085z15,413,"Häufigkeit: Amtsarzt, Schularzt (EFB)  ","Frequency: public health officer, school doctor (EFB)",Metrisch,13624,F2,-7
+413,E08516,414,Zahnarzt (EFB)    ,Dentist (EFB),Nominal,13614,F2,-7
+414,E085z16,415,Häufigkeit: Zahnarzt (EFB)   ,Frequency: Dentist (EFB),Metrisch,13526,F2,-7
+415,E08517,416,Sonstiger Arzt (EFB)   ,Other doctor (EFB),Nominal,13653,F2,-7
+416,E085z17,417,Häufigkeit: Sonstiger Arzt (EFB)  ,Frequency: Other doctor (EFB),Metrisch,13644,F2,-7
+417,E08518,418,Frauenarzt (EFB)    ,Gynecologist (EFB),Nominal,13638,F2,-7
+418,E085z18,419,Häufigkeit: Frauenarzt (EFB)   ,Frequency: Gynecologist (EFB),Metrisch,13637,F2,-7
+419,e085z,420,Häufigkeit: Arzt (ohne Zahnarzt und Psychologe),Frequency: doctor (excluding dentist and psychologist),Metrisch,13112,F2,-7
+420,E0861,421,Heilpraktiker (EFB)    ,Naturopath (EFB),Nominal,13660,F2,-7
+421,E086z1,422,Häufigkeit: Heilpraktiker (EFB)   ,Frequency: Naturopath (EFB),Metrisch,13653,F2,-7
+422,E086A1,423,Heilpraktiker: Mit Behandlung zufrieden? (EFB) ,Naturopath: Satisfied with treatment? (EFB),Nominal,474,F2,-7
+423,E0862,424,"Krankengymnast, Physiotherapeut (EFB)   ",Physiotherapist (EFB),Nominal,13661,F2,-7
+424,E086z2,425,Häufigkeit: Physiotherapeut (EFB)   ,Frequency: Physiotherapist (EFB),Metrisch,13620,F2,-7
+425,E086A2,426,Physiotherapeut: Mit Behandlung zufrieden? (EFB) ,Physiotherapist: Satisfied with treatment? (EFB),Nominal,655,F2,-7
+426,E0863,427,Logopäde (Sprachtherapeut) (EFB)   ,Speech therapist (speech therapist) (EFB),Nominal,13662,F2,-7
+427,E086z3,428,Häufigkeit: Logopäde (EFB)   ,Frequency: speech therapist (EFB),Metrisch,13602,F2,-7
+428,E086A3,429,Logopäde: Mit Behandlung zufrieden? (EFB) ,Speech therapist: satisfied with treatment? (EFB),Nominal,621,F2,-7
+429,E0864,430,Sonst. Einrichtung/Therapeut (EFB)   ,Otherwise. Facility/Therapist (EFB),Nominal,13662,F2,-7
+430,E086z4,431,Häufigkeit: Sonst. Einrichtung/Therapeut (EFB)  ,Frequency: Other. Facility/Therapist (EFB),Metrisch,13544,F2,-7
+431,E086A4,432,Sonst. Einrichtung/Therapeut: Mit Behandl. zufrieden? (EFB),Otherwise. Facility/Therapist: With treatment. satisfied? (EFB),Nominal,343,F2,-7
+432,E08701,433,U1: Nach der Geburt  ,U1: After birth,Nominal,16944,F2,
+433,E08702,434,U2: 3.-10. Lebenstag   ,U2: 3rd-10th day of life,Nominal,16944,F2,
+434,E08703,435,U3: 4.-6. Lebenswoche   ,U3: 4th-6th life week,Nominal,16944,F2,
+435,E08704,436,U4: 3.-4. Lebensmonat   ,U4: 3rd-4th life month,Nominal,16944,F2,
+436,E08705,437,U5: 6.-7. Lebensmonat   ,U5: 6th-7th life month,Nominal,16944,F2,
+437,E08706,438,U6: 10.-12. Lebensmonat   ,U6: 10th-12th life month,Nominal,16944,F2,
+438,E08707,439,U7: 21.-24. Lebensmonat   ,U7: 21st-24th life month,Nominal,16944,F2,
+439,E08708,440,U8: 43.-48. Lebensmonat   ,U8: 43rd-48th life month,Nominal,14186,F2,-7
+440,E08709,441,U9: Im 6 Lebensjahr  ,U9: At the age of 6,Nominal,14186,F2,-7
+441,E08711,442,J1: Im 15 Lebensjahr  ,J1: At the age of 15,Nominal,3481,F2,-7
+442,E08710,443,Vorsorgeuntersuchung: Trifft nicht zu  ,Medical check-up: Not applicable,Nominal,16944,F2,
+443,E087,444,Andere Vorsorgeuntersuchung    ,Other check-ups,Nominal,10363,F2,
+444,E088m01,445,Allgemeine Ortskrankenkasse (AOK)   ,General local health insurance (AOK),Nominal,17221,F2,-7
+445,E088m02,446,Ersatzkrankenkasse     ,substitute health insurance,Nominal,17221,F2,-7
+446,E088m03,447,Betriebskrankenkasse     ,company health insurance,Nominal,17221,F2,-7
+447,E088m04,448,Innungskrankenkasse     ,Guild health insurance,Nominal,17221,F2,-7
+448,E088m05,449,Andere gesetzliche Krankenkasse   ,Other statutory health insurance,Nominal,17221,F2,-7
+449,E088m06,450,Private Vollversicherung    ,Private full insurance,Nominal,17221,F2,-7
+450,E088m07,451,Private Zusatzversicherung    ,Private supplementary insurance,Nominal,17221,F2,-7
+451,E088m08,452,Beihilfe (z. B. Öffentl. Dienst) ,Aid (e.g. public service),Nominal,17221,F2,-7
+452,E088m09,453,Ausländische Krankenkasse    ,Foreign health insurance,Nominal,17221,F2,-7
+453,E088m10,454,Sonst. Anspruch auf Krankenversorgung  ,Otherwise. entitlement to health care,Nominal,17221,F2,-7
+454,E088m11,455,Keine Krankenversicherung    ,No health insurance,Nominal,17221,F2,-7
+455,awann,456,Letzte Arztinanspruchnahme (EFB/KFB)   ,Last visit to the doctor (EFB/KFB),Ordinal,17254,F2,
+456,aort,457,Ort: Arztinanspruchnahme (EFB/KFB)   ,Place: Doctor's use (EFB/KFB),Nominal,17068,F2,
+457,atyp,458,In Anspruch genommener Arzt (EFB/KFB) ,Doctor used (EFB/KFB),Nominal,17095,F2,
+458,atypnat,459,Arzt für Naturheilkunde (letzter Besuch) (EFB/KFB),Naturopathic doctor (last visit) (EFB/KFB),Nominal,16202,F2,
+459,atyphom,460,Arzt mit Zusatzausb. Homöopathie (letzter Besuch),doctor with additional training Homeopathy (last visit),Nominal,15980,F2,
+460,agrnd_m1,461,"Grund: Akute Krankheit, Unfall (EFB/KFB) ","Reason: Acute illness, accident (EFB/KFB)",Nominal,16474,F2,
+461,agrnd_m2,462,Grund: Chronische Krankheit (EFB/KFB)  ,Reason: Chronic illness (EFB/KFB),Nominal,16474,F2,
+462,agrnd_m3,463,Grund: Störung des Befindens (EFB/KFB) ,Reason: disturbance of well-being (EFB/KFB),Nominal,16474,F2,
+463,agrnd_m4,464,Grund: Beratung (z. B. Ernährung) (EFB/KFB),Reason: advice (e.g. nutrition) (EFB/KFB),Nominal,16474,F2,
+464,agrnd_m5,465,Grund: Verordnung eines/r Medikaments/Behandlung (EFB/KFB) ,Reason: prescription of a drug/treatment (EFB/KFB),Nominal,16474,F2,
+465,agrnd_m6,466,Grund: Vorsorgeuntersuchung/Impfung (EFB/KFB)   ,Reason: check-up/vaccination (EFB/KFB),Nominal,16474,F2,
+466,agrnd_m7,467,Grund: Kindergarten-/Schul(eingangs)untersuchung (nur EFB)  ,Reason: kindergarten/school (initial) examination (only EFB),Nominal,12993,F2,-7
+467,azufr,468,Zufriedenheit mit Behandlung/Beratung (EFB/KFB)  ,Satisfaction with treatment/advice (EFB/KFB),Ordinal,16998,F2,
+468,arzt01,469,Kinderarzt (EFB/KFB)    ,Pediatrician (EFB/KFB),Nominal,17336,F2,
+469,arztZ01,470,Häufigkeit: Kinderarzt (EFB/KFB)   ,Frequency: Pediatrician (EFB/KFB),Metrisch,16946,F2,
+470,arzt02,471,Arzt für Allgemeinmedizin/Prakt. Arzt (EFB/KFB) ,General Practitioner/Pract. Doctor (EFB/KFB),Nominal,17337,F2,
+471,arztZ02,472,Häufigkeit: Prakt. Arzt (EFB/KFB)  ,Frequency: Practical. Doctor (EFB/KFB),Metrisch,17005,F2,
+472,arzt03,473,Internist (Innere Medizin) (EFB/KFB)  ,Internist (internal medicine) (EFB/KFB),Nominal,17339,F2,
+473,arztZ03,474,Häufigkeit: Internist (EFB/KFB)   ,Frequency: Internist (EFB/KFB),Metrisch,17275,F2,
+474,arzt04,475,Augenarzt (EFB/KFB)    ,Ophthalmologist (EFB/KFB),Nominal,17336,F2,
+475,arztZ04,476,Häufigkeit: Augenarzt (EFB/KFB)   ,Frequency: ophthalmologist (EFB/KFB),Metrisch,17286,F2,
+476,arzt05,477,Orthopäde (EFB/KFB)    ,Orthopedist (EFB/KFB),Nominal,17336,F2,
+477,arztZ05,478,Häufigkeit: Orthopäde (EFB/KFB)   ,Frequency: orthopedist (EFB/KFB),Metrisch,17287,F2,
+478,arzt06,479,Hals-Nasen-Ohrenarzt (EFB/KFB)    ,Otorhinolaryngologist (EFB/KFB),Nominal,17337,F2,
+479,arztZ06,480,Häufigkeit: HNO-Arzt (EFB/KFB)   ,Frequency: ENT doctor (EFB/KFB),Metrisch,17299,F2,
+480,arzt07,481,Nervenarzt/Psychiater (EFB/KFB)    ,Neurologist/Psychiatrist (EFB/KFB),Nominal,17338,F2,
+481,arztZ07,482,Häufigkeit: Nervenarzt (EFB/KFB)   ,Frequency: neurologist (EFB/KFB),Metrisch,17326,F2,
+482,arzt08,483,Psychologe (EFB/KFB)    ,Psychologist (EFB/KFB),Nominal,17338,F2,
+483,arztZ08,484,Häufigkeit: Psychologe (EFB/KFB)   ,Frequency: Psychologist (EFB/KFB),Metrisch,17321,F2,
+484,arzt09,485,Chirurg (EFB/KFB)    ,Surgeon (EFB/KFB),Nominal,17339,F2,
+485,arztZ09,486,Häufigkeit: Chirurg (EFB/KFB)   ,Frequency: Surgeon (EFB/KFB),Metrisch,17313,F2,
+486,arzt10,487,Hautarzt (EFB/KFB)    ,Dermatologist (EFB/KFB),Nominal,17337,F2,
+487,arztZ10,488,Häufigkeit: Hautarzt (EFB/KFB)   ,Frequency: dermatologist (EFB/KFB),Metrisch,17272,F2,
+488,arzt11,489,Röntgenarzt (EFB/KFB)    ,Radiologist (EFB/KFB),Nominal,17338,F2,
+489,arztZ11,490,Häufigkeit: Röntgenarzt (EFB/KFB)   ,Frequency: radiologist (EFB/KFB),Metrisch,17327,F2,
+490,arzt12,491,Urologe (EFB/KFB)    ,Urologist (EFB/KFB),Nominal,17338,F2,
+491,arztZ12,492,Häufigkeit: Urologe (EFB/KFB)   ,Frequency: Urologist (EFB/KFB),Metrisch,17331,F2,
+492,arzt15,493,"Amtsarzt, Schularzt usw. (EFB/KFB)  ","Public health officer, school doctor, etc. (EFB/KFB)",Nominal,17336,F2,
+493,arztZ15,494,"Häufigkeit: Amtsarzt, Schularzt, Betriebsarzt (EFB/KFB) ","Frequency: public health officer, school doctor, company doctor (EFB/KFB)",Metrisch,17300,F2,
+494,arzt16,495,Zahnarzt (EFB); Zahnarzt/Kieferorthopäde (KFB)  ,Dentist (EFB); Dentist/orthodontist (KFB),Nominal,17298,F2,
+495,arztZ16,496,Häufigkeit: Zahnarzt (EFB); Zahnarzt/Kieferorthopäde (KFB) ,Frequency: Dentist (EFB); Dentist/orthodontist (KFB),Metrisch,17190,F2,
+496,arzt17,497,Sonstiger Arzt (EFB/KFB)   ,Other doctor (EFB/KFB),Nominal,17338,F2,
+497,arztZ17,498,Häufigkeit: Sonstiger Arzt (EFB/KFB)  ,Frequency: Other doctor (EFB/KFB),Metrisch,17324,F2,
+498,arzt18,499,Frauenarzt (EFB/KFB)    ,Gynecologist (EFB/KFB),Nominal,17322,F2,
+499,arztZ18,500,Häufigkeit: Frauenarzt (EFB/KFB)   ,Frequency: Gynecologist (EFB/KFB),Metrisch,17312,F2,
+500,arzt12mm,501,Arztbesuch = ja in 12-Monats-Prävalenz (EFB/KFB),Visit to the doctor = yes in 12-month prevalence (EFB/KFB),Nominal,17340,F3,
+501,arztAKFB,502,Häufigkeit: Arzt (ohne Zahnarzt und Psychologe;,Frequency: doctor (excluding dentist and psychologist;,Metrisch,16465,F3,
+502,ther1,503,Heilpraktiker (EFB/KFB)    ,Naturopath (EFB/KFB),Nominal,17332,F2,
+503,therZ1,504,Häufigkeit: Heilpraktiker (EFB/KFB)   ,Frequency: naturopath (EFB/KFB),Metrisch,17324,F2,
+504,therzuf1,505,Heilpraktiker: Mit Behandlung zufrieden? (nur EFB),Naturopath: Satisfied with treatment? (EFB only),Nominal,474,F2,-7
+505,ther2,506,"Krankengymnast, Physiotherapeut (EFB/KFB)   ",Physiotherapist (EFB/KFB),Nominal,17333,F2,
+506,therZ2,507,Häufigkeit: Physiotherapeut (EFB/KFB)   ,Frequency: Physiotherapist (EFB/KFB),Metrisch,17286,F2,
+507,therzuf2,508,Physiotherapeut: Mit Behandlung zufrieden? (nur EFB),Physiotherapist: Satisfied with treatment? (EFB only),Nominal,655,F2,-7
+508,ther3,509,Logopäde (Sprachtherapeut) (EFB/KFB)   ,Speech therapist (speech therapist) (EFB/KFB),Nominal,17334,F2,
+509,therZ3,510,Häufigkeit: Logopäde (EFB/KFB)   ,Frequency: speech therapist (EFB/KFB),Metrisch,17274,F2,
+510,therzuf3,511,Logopäde: Mit Behandlung zufrieden? (nur EFB),Speech therapist: satisfied with treatment? (EFB only),Nominal,621,F2,-7
+511,ther4,512,Sonst. Einrichtung/Therapeut (EFB/KFB)   ,Otherwise. Institution/therapist (EFB/KFB),Nominal,17334,F2,
+512,therZ4,513,Häufigkeit: Sonst. Einrichtung/Therapeut (EFB/KFB)  ,Frequency: Other. Institution/therapist (EFB/KFB),Metrisch,17212,F2,
+513,therzuf4,514,Sonst. Einrichtung/Therapeut: Mit Behandl. zufrieden? (nur,Otherwise. Facility/Therapist: With treatment. satisfied? (only,Nominal,343,F2,-7
+514,ther6,515,Psychotherapeut (nur KFB)   ,Psychotherapist (only KFB),Nominal,3672,F2,-7
+515,therZ6,516,Häufigkeit: Psychotherapeut (nur KFB)  ,Frequency: psychotherapist (only KFB),Metrisch,3671,F2,-7
+516,ther7,517,Ergotherapeut (nur KFB)   ,Occupational therapist (only KFB),Nominal,3672,F2,-7
+517,therZ7,518,Häufigkeit: Ergotherapeut (nur KFB)  ,Frequency: occupational therapist (only KFB),Metrisch,3672,F2,-7
+518,e089m,519,Mutter: Schulabschluss    ,Mother: Graduated from school,Nominal,17295,F2,
+519,e089v,520,Vater: Schulabschluss    ,Father: Graduated from school,Nominal,16591,F2,
+520,e090m,521,Mutter: Berufsausbildung    ,Mother: vocational training,Nominal,16818,F2,
+521,e090v,522,Vater: Berufsausbildung    ,Father: vocational training,Nominal,16209,F2,
+522,e091m,523,Mutter: Berufstätigkeit    ,Mother: employment,Nominal,17218,F2,
+523,e091v,524,Vater: Berufstätigkeit    ,Father: professional activity,Nominal,16471,F2,
+524,e092m,525,Mutter: Berufl. Stellung   ,mother: professional position,Nominal,16637,F2,
+525,e092v,526,Vater: Berufl. Stellung   ,Father: professional position,Nominal,16066,F2,
+526,e093,527,Monatl. Haushaltsnettoeinkommen    ,monthly household net income,Ordinal,16552,F2,
+527,schichtz,528,Soziale Schicht n. Winkler (D2003/4) ,Social class according to Winkler (D2003/4),Ordinal,17214,F2,
+528,windexz,529,Winkler-Indexscore (D2003/4)    ,Winkler index score (D2003/4),Metrisch,17214,F2,
+529,K001B,530,Hauptaufenthaltsort (KFB) aggregiert   ,Main place of residence (KFB) aggregated,Nominal,6724,F3,-7
+530,k008,531,Kind: Geburtsland    ,Child: country of birth,Nominal,6741,F2,-7
+531,k009,532,Kind: Seit Geburt in D ,Child: Since birth in D,Nominal,6708,F2,-7
+532,k009z,533,Kind: Seit wann in D (Alter),Child: Since when in D (age),Metrisch,502,F2,-7
+533,k008m,534,Mutter: Geburtsland (KFB)   ,Mother: Country of Birth (KFB),Nominal,6720,F2,-7
+534,k008v,535,Vater: Geburtsland (KFB)   ,Father: Country of birth (KFB),Nominal,6508,F2,-7
+535,k106a,536,Noch Schüler (KFB)   ,Still a student (KFB),Nominal,3708,F2,-7
+536,k106,537,Schultyp (KFB)    ,School type (KFB),Nominal,6178,F2,-7
+537,k099z,538,Wievielte Klasse (KFB)   ,What class (KFB),Metrisch,6196,F2,-7
+538,k099c,539,Schulabschluss (kodiert) (KFB)   ,School leaving certificate (coded) (KFB),Nominal,415,F2,-7
+539,k099z1,540,Klassenstufe bei Schulabschluss (KFB)  ,Grade at school graduation (KFB),Metrisch,408,F2,-7
+540,k125,541,Jetzige Tätigkeit (KFB)   ,Current activity (KFB),Nominal,440,F2,-7
+541,Schultyp,542,Schultyp (inkl. Schulabschluss)   ,Type of school (incl. school leaving certificate),Nominal,6584,F2,-7
+542,k019,543,Subjektiver Gesundheitszustand (KFB)   ,Subjective state of health (CFB),Ordinal,5398,F2,-7
+543,k024z1,544,"Erkältung, grippaler Infekt (KFB)  ","Cold, flu-like infection (CFB)",Metrisch,3633,F2,-7
+544,k024z2,545,Angina (Mandelentzündung) (KFB)   ,Angina (tonsillitis) (CFB),Metrisch,3621,F2,-7
+545,k024z3,546,Herpes-Infektion (KFB)    ,Herpes infection (KFB),Metrisch,3617,F2,-7
+546,k024z4,547,Bronchitis (nicht bei Asthma) (KFB) ,Bronchitis (not in asthma) (KFB),Metrisch,3615,F2,-7
+547,k024z6,548,"Durchfall, Magen-Darm-Infektion (KFB)   ","diarrhoea, gastrointestinal infection (CFB)",Metrisch,3622,F2,-7
+548,k024z7,549,Blasen- und/oder Harnwegsentzündung (KFB)  ,Bladder and/or urinary tract infection (CFB),Metrisch,3620,F2,-7
+549,k024z8,550,Eitrige Bindehautentzündung (KFB)   ,Purulent conjunctivitis (CFB),Metrisch,3612,F2,-7
+550,k028,551,Jemals weitere Krankheiten (KFB)  ,Ever More Diseases (KFB),Nominal,3549,F2,-7
+551,k029z,552,Nächte im Krankenhaus (KFB)  ,Nights in the Hospital (KFB),Nominal,3636,F3,-7
+552,k026,553,Dauerhaft schwerhörig (KFB)   ,Permanently hard of hearing (KFB),Nominal,3669,F2,-7
+553,k026a,554,Hörgerät (KFB)    ,hearing aid,Nominal,30,F2,-7
+554,k032,555,Schmerzen i. d. letzten 3 Monaten,Pain id last 3 months,Nominal,6708,F2,-7
+555,k03301,556,Kopfschmerzen (KFB)    ,Headache (CFB),Ordinal,4805,F2,-7
+556,k03302,557,Rückenschmerzen (KFB)    ,back pain (CFB),Ordinal,4585,F2,-7
+557,k03303,558,Ohrenschmerzen (KFB)    ,Earache (CFB),Ordinal,4452,F2,-7
+558,k03304,559,Augenschmerzen (KFB)    ,Eye pain (CFB),Ordinal,4425,F2,-7
+559,k03305,560,Bauchschmerzen (KFB)    ,Abdominal pain (CFB),Ordinal,4598,F2,-7
+560,k03306,561,Schmerzen im Unterleib (KFB)  ,Abdominal pain (CFB),Ordinal,4384,F2,-7
+561,k03307,562,Armschmerzen (KFB)    ,Arm pain (CFB),Ordinal,4424,F2,-7
+562,k03308,563,Beinschmerzen (KFB)    ,leg pain (CFB),Ordinal,4544,F2,-7
+563,k03309,564,Schmerzen im Brustkorb (KFB)  ,Chest pain (CFB),Ordinal,4423,F2,-7
+564,k03310,565,Halsschmerzen (KFB)    ,sore throat (CFB),Ordinal,4539,F2,-7
+565,k03311,566,Zahnschmerzen (KFB)    ,Toothache (KFB),Ordinal,4370,F2,-7
+566,k03312c,567,Andere Schmerzen (kodiert) (KFB)  ,Other pain (coded) (KFB),Nominal,52,F2,-7
+567,k03313,568,Regelschmerzen (KFB)    ,Menstrual pain (CFB),Ordinal,3647,F2,-7
+568,k034c,569,Hauptschmerz (kodiert) (KFB)   ,Main pain (coded) (KFB),Nominal,4926,F2,-7
+569,k035,570,Wie oft Hauptschmerz (KFB)  ,How often main pain (CFB),Ordinal,4658,F2,-7
+570,k035z,571,Wieviel Mal unregelmäßig Hauptschmerz (KFB) ,How many times irregular main pain (CFB),Metrisch,798,F2,-7
+571,k036,572,Erstes Auftreten des Hauptschmerzes (KFB) ,First onset of main pain (CFB),Ordinal,3665,F2,-7
+572,k037z,573,Stärke des Hauptschmerzes (Skala in mm),Severity of main pain (scale in mm),Metrisch,3604,F3,-7
+573,k0380,574,Hauptschmerz: Menstruation (KFB)   ,Main pain: menstruation (CFB),Nominal,2828,F2,-7
+574,k0381,575,Hauptschmerz: Erkrankung (KFB)   ,Main pain: disease (CFB),Nominal,3189,F2,-7
+575,k0382,576,Hauptschmerz: Verletzung (KFB)   ,Main pain: injury (CFB),Nominal,3130,F2,-7
+576,k0383,577,Hauptschmerz: Medizin. Behandlung/Operation (KFB)  ,Main pain: medicine. Treatment/operation (KFB),Nominal,3089,F2,-7
+577,k0384,578,Hauptschmerz: Lärm (KFB)   ,Main pain: noise (CFB),Nominal,3103,F2,-7
+578,k0385,579,Hauptschmerz: Sportl. Betätigung (KFB)  ,Main pain: sports. Actuation (KFB),Nominal,3199,F2,-7
+579,k0386,580,Hauptschmerz: Schulwechsel (KFB)   ,Main pain: change of school (KFB),Nominal,3072,F2,-7
+580,k0387,581,Hauptschmerz: Trennung/Scheidung d. Eltern (KFB) ,Main pain: separation/divorce d. Parents (KFB),Nominal,3074,F2,-7
+581,k0388,582,Hauptschmerz: Tod eines Angehörigen (KFB) ,Main pain: death of a relative (KFB),Nominal,3077,F2,-7
+582,k0389,583,Hauptschmerz: Umzug (KFB)   ,Main pain: moving (KFB),Nominal,3059,F2,-7
+583,k03901,584,Medikamente wg. Schmerz (KFB)  ,medication according to pain (CFB),Ordinal,3568,F2,-7
+584,k03902,585,Arztbesuch wg. Schmerz (KFB)  ,visit to the doctor due to pain (CFB),Ordinal,3538,F2,-7
+585,k03903,586,Nicht in Kita/Schule wg. Schmerz (KFB),Not in daycare/school due to pain (CFB),Ordinal,3538,F2,-7
+586,k03904,587,Freunde nicht treffen wg. Schmerz (KFB),not meeting friends because pain (CFB),Ordinal,3526,F2,-7
+587,k03905,588,Keinen Appetit wg. Schmerz (KFB) ,No appetite because pain (CFB),Ordinal,3541,F2,-7
+588,k03906,589,Schlafprobleme wg. Schmerz (KFB)  ,sleep problems due pain (CFB),Ordinal,3541,F2,-7
+589,k03907,590,Hobbys nicht ausüben wg. Schmerz (KFB),Do not exercise hobbies because pain (CFB),Ordinal,3535,F2,-7
+590,k03908,591,Elternteil nicht zur Arbeit wg. Schmerz,Parent not at work due to pain,Ordinal,3522,F2,-7
+591,k03909,592,Sich hingelegt wg. Schmerz (KFB) ,lying down because pain (CFB),Ordinal,3563,F2,-7
+592,k03910,593,Anders beeinträchtigt wg. Schmerz (KFB) ,Differently impaired due to pain (CFB),Ordinal,3410,F2,-7
+593,k03910c,594,Beeinträchtigung wg. Schmerz (kodiert) (KFB) ,impairment due to Pain (coded) (KFB),Nominal,518,F2,-7
+594,k03911,595,Folgendes getan wg. Schmerz (KFB) ,done the following according to pain (CFB),Ordinal,650,F2,-7
+595,k03911c,596,Was getan wg. Schmerz (kodiert) (KFB),What done according to Pain (coded) (KFB),Nominal,619,F2,-7
+596,kw100_k,597,KINDL- Körperliches Wohlbefinden 100 (KFB) ,KINDL- Physical well-being 100 (KFB),Metrisch,6594,F6.2,"-7,00"
+597,pw100_k,598,KINDL- Psychisches Wohlbefinden 100 (KFB) ,KINDL- Mental well-being 100 (KFB),Metrisch,6611,F6.2,"-7,00"
+598,sel100_k,599,KINDL- Selbstwert 100 (KFB)  ,KINDL self-esteem 100 (KFB),Metrisch,6613,F6.2,"-7,00"
+599,fam100_k,600,KINDL- Familie 100 (KFB)  ,KINDL Family 100 (KFB),Metrisch,6637,F6.2,"-7,00"
+600,fre100_k,601,KINDL- Freunde 100 (KFB)  ,KINDL- Friends 100 (KFB),Metrisch,6642,F6.2,"-7,00"
+601,sch100_k,602,KINDL- Schule 100 (KFB)  ,KINDL School 100 (KFB),Metrisch,6628,F6.2,"-7,00"
+602,tot100_k,603,KINDL- Total Quality of life 100,KINDL - Total Quality of Life 100,Metrisch,6648,F6.2,"-7,00"
+603,emo_k,604,Skalenwert SDQ emotionale Probleme (Jugendliche) ,Scale value SDQ emotional problems (adolescents),Metrisch,6725,F3,-7
+604,verh_k,605,Skalenwert SDQ Verhaltensprobleme (Jugendliche)  ,Scale value SDQ behavioral problems (adolescents),Metrisch,6725,F3,-7
+605,hyp_k,606,Skalenwert SDQ Hyperaktivität (Jugendliche)  ,Score SDQ hyperactivity (adolescents),Metrisch,6725,F3,-7
+606,peer_k,607,Skalenwert SDQ Peer-Probleme (Jugendliche)  ,Scale score SDQ peer problems (adolescents),Metrisch,6725,F3,-7
+607,proso_k,608,Skalenwert SDQ prosoziales Verhalten (Jugendliche) ,Scale value SDQ prosocial behavior (adolescents),Metrisch,6734,F3,-7
+608,totsdq_k,609,Gesamtproblemwert SDQ (Jugendliche)   ,Total problem score SDQ (adolescents),Metrisch,6725,F3,-7
+609,emoauf_k,610,SDQ emotionale Probleme (Jugendliche)  ,SDQ Emotional Problems (Adolescents),Ordinal,6725,F2,-7
+610,verauf_k,611,SDQ Verhaltensprobleme (Jugendliche)   ,SDQ Behavioral Problems (Adolescents),Ordinal,6725,F2,-7
+611,hypauf_k,612,SDQ Hyperaktivität (Jugendliche)   ,SDQ Hyperactivity (Adolescents),Ordinal,6725,F2,-7
+612,peeauf_k,613,SDQ Peer-Probleme (Jugendliche)   ,SDQ peer issues (adolescents),Ordinal,6725,F2,-7
+613,proauf_k,614,SDQ prosoziales Verhalten (Jugendliche)  ,SDQ prosocial behavior (adolescents),Ordinal,6734,F2,-7
+614,sdqauf_k,615,auffällig SDQ Gesamtproblemwert (Jugendliche)  ,conspicuous SDQ total problem score (adolescents),Ordinal,6725,F2,-7
+615,k065,616,Schlafschwierigkeiten (KFB)    ,Difficulty sleeping (CFB),Nominal,6728,F2,-7
+616,k065a,617,Einschlafschwierigkeiten (KFB)    ,Difficulty falling asleep (CFB),Nominal,1422,F2,-7
+617,k065b,618,Durchschlafschwierigkeiten (KFB)    ,Difficulty staying asleep (CFB),Nominal,1422,F2,-7
+618,k108,619,Eigenes Zimmer    ,Own room,Nominal,6690,F2,-7
+619,k1091,620,Wie lange Fernsehen/ Video (KFB) ,How long television/ video (CFB),Ordinal,6706,F2,-7
+620,k1092,621,Wie lange Spielkonsole (KFB)  ,How long game console (KFB),Ordinal,6574,F2,-7
+621,k1093,622,Wie lange Computer/Internet (KFB)  ,How long computer/internet (KFB),Ordinal,6640,F2,-7
+622,k1094,623,Wie lange Musik hören (KFB) ,How long listen to music (KFB),Ordinal,6673,F2,-7
+623,k1095,624,Wie lange Handy (KFB)  ,How long mobile phone (KFB),Ordinal,6656,F2,-7
+624,k110z1,625,Taschengeld im Monat ()  ,Pocket money per month (),Metrisch,6373,F3,-7
+625,k110z2,626,Selbst verdientes Geld ()  ,Earned money (),Metrisch,6499,F3,-7
+626,k111,627,Körperliche Aktivität    ,Physical activity,Ordinal,6666,F2,-7
+627,k111z,628,Körperl. Aktivität: Std./Woche   ,physical Activity: hours/week,Metrisch,5766,F2,-7
+628,k112,629,Körperliche Leistungsfähigkeit    ,Physical ability,Ordinal,6726,F2,-7
+629,k113z,630,Schlaf letzte Nacht (Stunden)  ,sleep last night (hours),Metrisch,6694,F2,"-7, -8"
+630,scoff,631,SCOFF: mögliche Essstörung   ,SCOFF: possible eating disorder,Metrisch,6633,F2,-7
+631,k069,632,Körperselbstbild (KFB)    ,Body self-image (CFB),Ordinal,6696,F2,-7
+632,K119,633,Rauchen detailliert    ,smoking detailed,Ordinal,6699,F2,-7
+633,k119a,634,Rauchen ja/nein    ,smoking yes/no,Nominal,6729,F2,-7
+634,KZIG,635,Anzahl Zigaretten/Tag    ,Number of cigarettes/day,Metrisch,1007,F6.2,"-7,00"
+635,K121z,636,Alter Rauchbeginn    ,Old smoke start,Metrisch,997,F2,"-7, -8"
+636,K122,637,Rauchende Freunde    ,smoking friends,Nominal,6543,F2,-7
+637,K071a,638,Aufenthalt in verrauchten Räumen  ,stay in smoky rooms,Ordinal,6610,F2,-7
+638,K104,639,Schon einmal Alkohol getrunken (KFB) ,Have you ever drunk alcohol (KFB),Nominal,6700,F2,-7
+639,K1051,640,Häufigkeit Bier (KFB)   ,Frequency of beer (KFB),Ordinal,3944,F2,-7
+640,K1052,641,Häufigkeit Wein/Sekt (KFB)   ,Frequency of wine/sparkling wine (KFB),Ordinal,3847,F2,-7
+641,K1053,642,Häufigkeit Schnaps (KFB)   ,Frequency Schnaps (KFB),Ordinal,3795,F2,-7
+642,K075m1,643,Zähneputzen: Nach allen Mahlzeiten (KFB) ,Brushing your teeth: After every meal (KFB),Nominal,6696,F2,-7
+643,K075m2,644,Zähneputzen: Nach Süßigkeiten (KFB)  ,Brushing your teeth: after sweets (KFB),Nominal,6696,F2,-7
+644,K075m3,645,Zähneputzen: Meist 2mal täglich oder häufiger,Brushing your teeth: Usually twice a day or more,Nominal,6696,F2,-7
+645,K075m4,646,Zähneputzen: Meist 1mal täglich (KFB) ,Brushing your teeth: Usually once a day (KFB),Nominal,6696,F2,-7
+646,K075m5,647,Zähneputzen: Mehrmals pro Woche (KFB) ,Brushing your teeth: several times a week (CFB),Nominal,6696,F2,-7
+647,K075m6,648,Zähneputzen: 1mal pro Woche oder seltener,Brushing your teeth: 1 time per week or less,Nominal,6696,F2,-7
+648,K076m1,649,Zahnpasta mit Fluor (KFB)  ,Toothpaste with fluoride (KFB),Nominal,6605,F2,-7
+649,K076m2,650,Zahnpasta ohne Fluor (KFB)  ,Toothpaste without fluoride (KFB),Nominal,6605,F2,-7
+650,K076m3,651,Keine Zahnpasta (KFB)   ,No toothpaste (KFB),Nominal,6605,F2,-7
+651,K045,652,Helm beim Fahrradfahren (KFB)  ,Helmet while cycling (CFB),Nominal,6674,F2,-7
+652,K045a,653,Helm beim Mofa/Moped fahren (KFB) ,Helmet when driving a moped/moped (KFB),Nominal,6518,F2,-7
+653,K0461,654,Knie- und Armschoner beim Skaten/Rollerfahren (KFB),Knee and arm protectors when skating/scootering (KFB),Nominal,6449,F2,-7
+654,K0462,655,Helm beim Skaten/Rollerfahren (KFB)  ,Helmet when skating/scootering (KFB),Nominal,6409,F2,-7
+655,K124,656,Fahren mit alkoholisiertem Fahrer  ,Driving with a drunk driver,Nominal,6709,F2,-7
+656,K079,657,Letzte Arztinanspruchnahme (KFB)   ,Last visit to the doctor (KFB),Ordinal,3669,F2,-7
+657,K080,658,Ort: Arztinanspruchnahme (KFB)   ,Place: Doctor's use (KFB),Nominal,3604,F2,-7
+658,k080c,659,Sonstige Stelle: Arztinanspruchnahme (kodiert) (KFB) ,Other position: use of doctor (coded) (KFB),Nominal,7,F2,
+659,K081,660,In Anspruch genommener Arzt (KFB) ,Doctor used (KFB),Nominal,3600,F2,-7
+660,K0821,661,Arzt für Naturheilkunde (letzter Besuch) (KFB),Naturopathic doctor (last visit) (KFB),Nominal,3494,F2,-7
+661,K0822,662,Arzt mit Zusatzausb. Homöopathie (letzter Besuch),doctor with additional training Homeopathy (last visit),Nominal,3434,F2,-7
+662,K083m1,663,"Akute Krankheit, Unfall (KFB)  ","Acute illness, accident (KFB)",Nominal,3477,F2,-7
+663,K083m2,664,Chronische Krankheit (KFB)   ,Chronic illness (CFB),Nominal,3477,F2,-7
+664,K083m3,665,Störung des Befindens (KFB)  ,Disorder of well-being (CFB),Nominal,3477,F2,-7
+665,K083m4,666,Beratung (z. B. Ernährung) (KFB) ,Counseling (e.g. nutrition) (KFB),Nominal,3477,F2,-7
+666,K083m5,667,Verordnung eines/r Medikaments/Behandlung (KFB)  ,Prescription of a drug/treatment (KFB),Nominal,3477,F2,-7
+667,K083m6,668,Vorsorgeuntersuchung/Impfung (KFB)    ,Medical check-up/vaccination (KFB),Nominal,3477,F2,-7
+668,K084,669,Zufriedenheit mit Behandlung/Beratung (KFB)  ,Satisfaction with treatment/advice (CFB),Ordinal,3630,F2,-7
+669,K08501,670,Kinderarzt (KFB)    ,Pediatrician (KFB),Nominal,3681,F2,-7
+670,K085z01,671,Häufigkeit: Kinderarzt (KFB)   ,Frequency: Pediatrician (KFB),Metrisch,3621,F2,-7
+671,K08502,672,Arzt für Allgemeinmedizin/Prakt. Arzt (KFB) ,General Practitioner/Pract. Doctor (KFB),Nominal,3684,F2,-7
+672,K085z02,673,Häufigkeit: Prakt. Arzt (KFB)  ,Frequency: Practical. Doctor (KFB),Metrisch,3542,F2,-7
+673,K08503,674,Internist (Innere Medizin) (KFB)  ,Internist (internal medicine) (KFB),Nominal,3685,F2,-7
+674,K085z03,675,Häufigkeit: Internist (KFB)   ,Frequency: Internist (KFB),Metrisch,3668,F2,-7
+675,K08504,676,Augenarzt (KFB)    ,Ophthalmologist (KFB),Nominal,3684,F2,-7
+676,K085z04,677,Häufigkeit: Augenarzt (KFB)   ,Frequency: ophthalmologist (KFB),Metrisch,3672,F2,-7
+677,K08505,678,Orthopäde (KFB)    ,Orthopedist (KFB),Nominal,3683,F2,-7
+678,K085z05,679,Häufigkeit: Orthopäde (KFB)   ,Frequency: orthopedist (KFB),Metrisch,3653,F2,-7
+679,K08506,680,Hals-Nasen-Ohrenarzt (KFB)    ,Otorhinolaryngologist (KFB),Nominal,3685,F2,-7
+680,K085z06,681,Häufigkeit: HNO-Arzt (KFB)   ,Frequency: ENT doctor (KFB),Metrisch,3675,F2,-7
+681,K08507,682,Nervenarzt/Psychiater (KFB)    ,Neurologist/Psychiatrist (KFB),Nominal,3685,F2,-7
+682,K085z07,683,Häufigkeit: Nervenarzt (KFB)   ,Frequency: neurologist (KFB),Metrisch,3682,F2,-7
+683,K08508,684,Psychologe (KFB)    ,Psychologist (KFB),Nominal,3685,F2,-7
+684,K085z08,685,Häufigkeit: Psychologe (KFB)   ,Frequency: Psychologist (KFB),Metrisch,3683,F2,-7
+685,K08509,686,Chirurg (KFB)    ,Surgeon (KFB),Nominal,3685,F2,-7
+686,K085z09,687,Häufigkeit: Chirurg (KFB)   ,Frequency: Surgeon (KFB),Metrisch,3668,F2,-7
+687,K08510,688,Hautarzt (KFB)    ,Dermatologist (KFB),Nominal,3683,F2,-7
+688,K085z10,689,Häufigkeit: Hautarzt (KFB)   ,Frequency: Dermatologist (KFB),Metrisch,3643,F2,-7
+689,K08511,690,Röntgenarzt (KFB)    ,Radiologist (KFB),Nominal,3685,F2,-7
+690,K085z11,691,Häufigkeit: Röntgenarzt (KFB)   ,Frequency: Radiologist (KFB),Metrisch,3679,F2,-7
+691,K08512,692,Urologe (KFB)    ,Urologist (KFB),Nominal,3685,F2,-7
+692,K085z12,693,Häufigkeit: Urologe (KFB)   ,Frequency: Urologist (KFB),Metrisch,3684,F2,-7
+693,K08515,694,"Amtsarzt, Schularzt, Betriebsarzt (KFB)  ","Public health officer, school doctor, company doctor (KFB)",Nominal,3684,F2,-7
+694,K085z15,695,"Häufigkeit: Amtsarzt, Schularzt (KFB)  ","Frequency: public health officer, school doctor (KFB)",Metrisch,3676,F2,-7
+695,K08516,696,"Zahnarzt, Kieferorthopäde (KFB)   ","Dentist, orthodontist (KFB)",Nominal,3684,F2,-7
+696,K085z16,697,"Häufigkeit: Zahnarzt , Kieferorth. (KFB) ","Frequency: dentist , orthodontic. (KFB)",Metrisch,3664,F2,-7
+697,K08517,698,Sonstiger Arzt (KFB)   ,Other doctor (KFB),Nominal,3685,F2,-7
+698,K085z17,699,Häufigkeit: Sonstiger Arzt (KFB)  ,Frequency: Other doctor (KFB),Metrisch,3680,F2,-7
+699,K08518,700,Frauenarzt (KFB)    ,Gynecologist (KFB),Nominal,3684,F2,-7
+700,K085z18,701,Häufigkeit: Frauenarzt (KFB)   ,Frequency: Gynecologist (KFB),Metrisch,3675,F2,-7
+701,k085z,702,Häufigkeit: Arzt (ohne Zahnarzt und Psychologe),Frequency: doctor (excluding dentist and psychologist),Metrisch,3353,F2,-7
+702,k0861,703,Heilpraktiker (KFB)    ,Naturopath (KFB),Nominal,3672,F2,-7
+703,K086z1,704,Häufigkeit: Heilpraktiker (KFB)   ,Frequency: alternative practitioner (KFB),Metrisch,3671,F2,-7
+704,k0862,705,"Krankengymnast, Physiotherapeut (KFB)   ",Physiotherapist (KFB),Nominal,3672,F2,-7
+705,K086z2,706,Häufigkeit: Physiotherapeut (KFB)   ,Frequency: Physiotherapist (KFB),Metrisch,3666,F2,-7
+706,k0863,707,Logopäde (Sprachtherapeut) (KFB)   ,Speech therapist (speech therapist) (KFB),Nominal,3672,F2,-7
+707,K086z3,708,Häufigkeit: Logopäde (KFB)   ,Frequency: speech therapist (KFB),Metrisch,3672,F2,-7
+708,k0864,709,Sonst. Einrichtung/Therapeut (KFB)   ,Otherwise. Facility/Therapist (KFB),Nominal,3672,F2,-7
+709,K086z4,710,Häufigkeit: Sonst. Einrichtung/Therapeut (KFB)  ,Frequency: Other. Facility/Therapist (KFB),Metrisch,3668,F2,-7
+710,k0866,711,Psychotherapeut (KFB)    ,Psychotherapist (KFB),Nominal,3672,F2,-7
+711,K086z6,712,Häufigkeit: Psychotherapeut (KFB)   ,Frequency: Psychotherapist (KFB),Metrisch,3671,F2,-7
+712,k0867,713,Ergotherapeut (KFB)    ,Occupational therapist (KFB),Nominal,3672,F2,-7
+713,K086z7,714,Häufigkeit: Ergotherapeut (KFB)   ,Frequency: occupational therapist (KFB),Metrisch,3672,F2,-7
+714,k091m,715,Mutter: Berufstätigkeit (KFB)   ,Mother: professional activity (KFB),Nominal,3622,F2,-7
+715,k091v,716,Vater: Berufstätigkeit (KFB)   ,Father: professional activity (KFB),Nominal,3445,F2,-7
+716,CA01,717,"Heuschnupfen, allerg. Bindehautentzündung   ","hay fever, allergy conjunctivitis",Nominal,17424,F2,
+717,CBJ01,718,"Erstmals (Jahre): Heuschnupfen, allerg. Bindehautentzündung ","First time (years): hay fever, allerg. conjunctivitis",Metrisch,1694,F2,
+718,CBM01,719,"Erstmals (Monate): Heuschnupfen, allerg. Bindehautentzündung ","For the first time (months): hay fever, allerg. conjunctivitis",Metrisch,157,F2,
+719,CC01,720,"Letzte 12 Monate: Heuschnupfen, allerg. Bindehautentzündung","Last 12 months: hay fever, allerg. conjunctivitis",Nominal,1707,F2,
+720,CD01,721,"Letzte 4 Wochen: Heuschnupfen, allerg. Bindehautentzündung","Last 4 weeks: hay fever, allerg. conjunctivitis",Nominal,1707,F2,
+721,CA02,722,"Neurodermitis, atop. Ekzem   ","neurodermatitis, atopic eczema",Nominal,17424,F2,
+722,CBJ02,723,"Erstmals (Jahre): Neurodermitis, atop. Ekzem ","First time (years): neurodermatitis, atop. eczema",Metrisch,2305,F2,
+723,CBM02,724,"Erstmals (Monate): Neurodermitis, atop. Ekzem ","First time (months): neurodermatitis, atop. eczema",Metrisch,1248,F2,
+724,CC02,725,"Letzte 12 Monate: Neurodermitis, atop. Ekzem","Last 12 months: neurodermatitis, atop. eczema",Nominal,2317,F2,
+725,CD02,726,"Letzte 4 Wochen: Neurodermitis, atop. Ekzem","Last 4 weeks: neurodermatitis, atop. eczema",Nominal,2317,F2,
+726,CA03,727,Asthma     ,asthma,Nominal,17421,F2,
+727,CBJ03,728,Erstmals (Jahre): Asthma   ,First time (years): Asthma,Metrisch,767,F2,
+728,CBM03,729,Erstmals (Monate): Asthma   ,First time (months): Asthma,Metrisch,160,F2,
+729,CC03,730,Letzte 12 Monate: Asthma  ,Last 12 months: asthma,Nominal,774,F2,
+730,CD03,731,Letzte 4 Wochen: Asthma  ,Last 4 weeks: asthma,Nominal,774,F2,
+731,CA04,732,Spast. obstr. Bronchitis   ,fun. obstr. bronchitis,Nominal,17421,F2,
+732,CBJ04,733,Erstmals (Jahre): Spast. obstr. Bronchitis ,First time (years): Spast. obstr. bronchitis,Metrisch,2177,F2,
+733,CBM04,734,Erstmals (Monate): Spast. obstr. Bronchitis ,First time (months): Spast. obstr. bronchitis,Metrisch,1051,F2,
+734,CC04,735,Letzte 12 Monate: Spast. obstr. Bronchitis,Last 12 months: fun. obstr. bronchitis,Nominal,2183,F2,
+735,CD04,736,Letzte 4 Wochen: Spast. obstr. Bronchitis,Last 4 weeks: fun. obstr. bronchitis,Nominal,2183,F2,
+736,CA05,737,Lungenentzündung     ,lung infection,Nominal,17421,F2,
+737,CBJ05,738,Erstmals (Jahre): Lungenentzündung   ,First time (years): pneumonia,Metrisch,1770,F2,
+738,CBM05,739,Erstmals (Monate): Lungenentzündung   ,First time (months): pneumonia,Metrisch,712,F2,
+739,CC05,740,Letzte 12 Monate: Lungenentzündung  ,Last 12 months: pneumonia,Nominal,1779,F2,
+740,CD05,741,Letzte 4 Wochen: Lungenentzündung  ,Last 4 weeks: pneumonia,Nominal,1779,F2,
+741,CA06,742,Mittelohrentzündung     ,otitis media,Nominal,17421,F2,
+742,CBJ06,743,Erstmals (Jahre): Mittelohrentzündung   ,First time (years): otitis media,Metrisch,8246,F2,
+743,CBM06,744,Erstmals (Monate): Mittelohrentzündung   ,First time (months): otitis media,Metrisch,2605,F2,
+744,CC06,745,Letzte 12 Monate: Mittelohrentzündung  ,Last 12 months: otitis media,Nominal,8285,F2,
+745,CD06,746,Letzte 4 Wochen: Mittelohrentzündung  ,Last 4 weeks: otitis media,Nominal,8285,F2,
+746,CA07,747,Herzkrankheit     ,heart disease,Nominal,17421,F2,
+747,CBJ07,748,Erstmals (Jahre): Herzkrankheit   ,First time (years): Heart disease,Metrisch,462,F2,
+748,CBM07,749,Erstmals (Monate): Herzkrankheit   ,First time (months): Heart disease,Metrisch,339,F2,
+749,CC07,750,Letzte 12 Monate: Herzkrankheit  ,Last 12 months: heart disease,Nominal,488,F2,
+750,CD07,751,Letzte 4 Wochen: Herzkrankheit  ,Last 4 weeks: heart disease,Nominal,488,F2,
+751,CA08,752,"Blutarmut, Anämie    ","anemia, anemia",Nominal,17421,F2,
+752,CBJ08,753,"Erstmals (Jahre): Blutarmut, Anämie  ","For the first time (years): anemia, anemia",Metrisch,397,F2,
+753,CBM08,754,"Erstmals (Monate): Blutarmut, Anämie  ","For the first time (months): anemia, anemia",Metrisch,193,F2,
+754,CC08,755,"Letzte 12 Monate: Blutarmut, Anämie ","Last 12 months: anemia, anemia",Nominal,399,F2,
+755,CD08,756,"Letzte 4 Wochen: Blutarmut, Anämie ","Last 4 weeks: anemia, anemia",Nominal,399,F2,
+756,CA09,757,Krampfanfall     ,seizure,Nominal,17421,F2,
+757,CBJ09,758,Erstmals (Jahre): Krampfanfall   ,First time (years): seizure,Metrisch,583,F2,
+758,CBM09,759,Erstmals (Monate): Krampfanfall   ,First time (months): seizure,Metrisch,328,F2,
+759,CC09,760,Letzte 12 Monate: Krampfanfall  ,Last 12 months: seizure,Nominal,589,F2,
+760,CD09,761,Letzte 4 Wochen: Krampfanfall  ,Last 4 weeks: seizure,Nominal,589,F2,
+761,CA10,762,Schilddrüsenkrankheit     ,thyroid disease,Nominal,17421,F2,
+762,CBJ10,763,Erstmals (Jahre): Schilddrüsenkrankheit   ,First time (years): Thyroid disease,Metrisch,240,F2,
+763,CBM10,764,Erstmals (Monate): Schilddrüsenkrankheit   ,First time (months): Thyroid disease,Metrisch,41,F2,
+764,CC10,765,Letzte 12 Monate: Schilddrüsenkrankheit  ,Last 12 months: Thyroid disease,Nominal,241,F2,
+765,CD10,766,Letzte 4 Wochen: Schilddrüsenkrankheit  ,Last 4 weeks: Thyroid disease,Nominal,241,F2,
+766,CA11,767,Zuckerkrankheit     ,diabetes,Nominal,17421,F2,
+767,CBJ11,768,Erstmals (Jahre): Zuckerkrankheit   ,For the first time (years): Diabetes,Metrisch,21,F2,
+768,CBM11,769,Erstmals (Monate): Zuckerkrankheit   ,For the first time (months): Diabetes,Metrisch,7,F2,
+769,CC11,770,Letzte 12 Monate: Zuckerkrankheit  ,Last 12 months: diabetes,Nominal,22,F2,
+770,CD11,771,Letzte 4 Wochen: Zuckerkrankheit  ,Last 4 weeks: diabetes,Nominal,22,F2,
+771,CA12,772,Skoliose     ,scoliosis,Nominal,17421,F2,
+772,CBJ12,773,Erstmals (Jahre): Skoliose   ,First time (years): Scoliosis,Metrisch,809,F2,
+773,CBM12,774,Erstmals (Monate): Skoliose   ,First time (months): scoliosis,Metrisch,120,F2,
+774,CC12,775,Letzte 12 Monate: Skoliose  ,Last 12 months: scoliosis,Nominal,811,F2,
+775,CD12,776,Letzte 4 Wochen: Skoliose  ,Last 4 weeks: scoliosis,Nominal,811,F2,
+776,CA13,777,Migräne     ,migraine,Nominal,17421,F2,
+777,CBJ13,778,Erstmals (Jahre): Migräne   ,First time (years): migraine,Metrisch,378,F2,
+778,CBM13,779,Erstmals (Monate): Migräne   ,First time (months): migraine,Metrisch,26,F2,
+779,CC13,780,Letzte 12 Monate: Migräne  ,Last 12 months: migraines,Nominal,385,F2,
+780,CD13,781,Letzte 4 Wochen: Migräne  ,Last 4 weeks: migraines,Nominal,385,F2,
+781,CA14,782,Weitere Krankheiten    ,Other diseases,Nominal,17313,F2,
+782,C15,783,Angeborene Fehlbildung    ,congenital malformation,Nominal,17333,F2,
+783,C17,784,Allergietest     ,allergy test,Nominal,3483,F2,
+784,C171,785,Bluttest     ,blood test,Nominal,2022,F2,
+785,C172,786,Pricktest     ,prick test,Nominal,2022,F2,
+786,C173,787,Pflastertest     ,patch test,Nominal,2022,F2,
+787,C174,788,Andere Methoden    ,other methods,Nominal,2022,F2,
+788,C18,789,Allergiebestätigung d. Test   ,allergy confirmation d. test,Nominal,2050,F2,
+789,C181,790,"Allergen: Blütenstaub, Gräser   ","Allergen: pollen, grasses",Nominal,1658,F2,
+790,C182,791,"Allergen: Tiere, Tierhaare   ","Allergen: animals, animal hair",Nominal,1652,F2,
+791,C183,792,Allergen: Schimmelpilze    ,Allergen: molds,Nominal,1649,F2,
+792,C184,793,Allergen: Hausstaub    ,Allergen: house dust,Nominal,1653,F2,
+793,C185,794,Allergen: Nahrungsmittel    ,Allergen: food,Nominal,1649,F2,
+794,C186,795,Allergen: Sonstiges    ,Allergen: other,Nominal,1567,F2,
+795,C19,796,De-/Hyposensibilisierung     ,de-/hyposensitization,Nominal,2607,F2,
+796,C19a,797,Behandlungserfolg: De-/Hyposensibilisierung    ,Treatment success: de-/hyposensitization,Ordinal,338,F2,
+797,C19z,798,Behandlungsbeginn: De-/Hyposensibilisierung    ,Start of treatment: de-/hyposensitization,Metrisch,346,F4,
+798,C20,799,"Medikamente wg. Heuschnupfen, allerg. Bindhautentz. ","medication according to hay fever, allergy conjunctivitis",Nominal,1556,F2,
+799,C201,800,Antihistaminika     ,antihistamines,Nominal,1041,F2,
+800,C201a,801,Topisch     ,topical,Nominal,1019,F2,
+801,C201b,802,Systemisch     ,Systemic,Nominal,1019,F2,
+802,C202,803,Abschwel. Nasentropfen    ,smoldering nose drops,Nominal,1041,F2,
+803,C203,804,"Andere Medikamente wg. Heuschnupfen, allerg. Bindhautentz.","Other medications hay fever, allergy conjunctivitis",Nominal,1041,F2,
+804,C204,805,"Medikament wg. Heuschnupfen, allerg. Bindhautentz.: Weiß","drug according to hay fever, allergy Conjunctivitis: White",Nominal,1041,F2,
+805,C21,806,Fehlen in Schule/Kita wg. Heuschnupfens ,Absence from school/daycare due to hay fever,Nominal,1534,F2,
+806,C21z,807,Fehltage in Schule/Kita wg. Heuschnupfens ,Missing days in school/daycare due to hay fever,Metrisch,108,F3,
+807,C22,808,Medikamente wg. Neurodermitis   ,medication according to neurodermatitis,Nominal,2062,F2,
+808,C221,809,Kortikoidfreie Salben    ,Corticoid-free ointments,Nominal,1038,F2,
+809,C222,810,Kortikoidhaltige Salben    ,Ointments containing corticosteroids,Nominal,1038,F2,
+810,C223,811,Andere Neurodermitis-Medikamente    ,Other eczema medications,Nominal,1038,F2,
+811,C224,812,Neurodermitis-Medikament: Weiß nicht   ,Neurodermatitis medication: Don't know,Nominal,1038,F2,
+812,C23,813,Fehlen in Schule/Kita wg. Neurodermitis ,Absence from school/daycare due to neurodermatitis,Nominal,2007,F2,
+813,C23z,814,Fehltage in Schule/Kita wg. Neurodermitis ,Missing days in school/daycare due to neurodermatitis,Metrisch,25,F3,
+814,C24,815,Asthmaanfälle i.d.l. 12 Mon.  ,Asthma attacks idl 12 months,Ordinal,682,F2,
+815,C25,816,Asthmaanfälle werden als bedrohlich empfunden ,Asthma attacks are perceived as threatening,Ordinal,681,F2,
+816,C26,817,Klinikaufnahme wg. Asthmaanfall   ,Hospital admission due to asthma attack,Nominal,672,F2,
+817,C26a,818,Notärztl. Versorgung wg. Asthma  ,emergency doctor supply according to asthma,Nominal,673,F2,
+818,C26az,819,Häufigkeit: Notärztl. Versorgung wg. Asthma ,Frequency: emergency doctor. supply according to asthma,Metrisch,16,F3,
+819,C26b,820,Ambulante ärztl. Versorgung wg. Asthma ,Outpatient medical care due to asthma,Nominal,678,F2,
+820,C26bz,821,Häufigkeit: Ambulante ärztl. Versorgung wg. Asthma,Frequency: Outpatient medical care due to asthma,Metrisch,134,F2,
+821,C26z1,822,Häufigkeit: Klinikaufnahme wg. Asthmaanfall  ,Frequency: Hospital admission due to asthma attack,Metrisch,20,F2,
+822,C26z2,823,Nächte in Klinik wg. Asthmaanfall ,Nights in clinic due to asthma attack,Metrisch,15,F3,
+823,C27,824,Fehlen in Schule/Kita wg. Asthma bronchiale,Absence from school/daycare due to bronchial asthma,Nominal,681,F2,
+824,C27z,825,Fehltage in Schule/Kita wg. Asthma bronchiale,Missing days in school/daycare due to bronchial asthma,Metrisch,102,F2,
+825,C28,826,Medikamente wg. Asthma   ,medication according to asthma,Nominal,669,F2,
+826,C281,827,Betamimetika     ,betamimetics,Nominal,460,F2,
+827,C282,828,Ipratropiumbromid     ,ipratropium bromide,Nominal,460,F2,
+828,C283,829,Cromoglycin     ,cromoglycine,Nominal,460,F2,
+829,C284,830,Kortikosteroide     ,corticosteroids,Nominal,460,F2,
+830,C2841,831,Inhalativ     ,inhalative,Nominal,458,F2,
+831,C2842,832,Systemisch     ,Systemic,Nominal,458,F2,
+832,C285,833,Andere Asthma-Medikamente    ,Other asthma medications,Nominal,460,F2,
+833,C286,834,Asthma-Medikament: Weiß nicht   ,Asthma medication: Don't know,Nominal,460,F2,
+834,C29,835,Häufigkeit: Mittelohrentzündung    ,Frequency: otitis media,Ordinal,7686,F2,
+835,C301,836,Paukenerguss m. Paracentese   ,tympanic effusion with paracentesis,Nominal,8285,F2,
+836,C302,837,Paukenerguss m. Drainage   ,tympanic effusion with drainage,Nominal,8285,F2,
+837,C303,838,Schwerhörigkeit     ,deafness,Nominal,8285,F2,
+838,C304,839,Verzög. Sprachentwicklung    ,delay language development,Nominal,8285,F2,
+839,C31,840,Medikamente wg. Mittelohrentzündung   ,medication according to otitis media,Nominal,7555,F2,
+840,C321,841,Antibiotika     ,antibiotics,Nominal,1608,F2,
+841,C322,842,Schmerzmittel     ,Painkiller,Nominal,1608,F2,
+842,C323,843,Nasentropfen     ,nose drops,Nominal,1608,F2,
+843,C324,844,Andere Medikamente wg. Mittelohrentzündung  ,Other medications otitis media,Nominal,1608,F2,
+844,C325,845,Medikament wg. Mittelohrentzündung: Weiß nicht ,drug according to Otitis media: Don't know,Nominal,1608,F2,
+845,C34,846,Operation wg. Herzkrankheit   ,surgery due to heart disease,Nominal,449,F2,
+846,C34z,847,Anzahl Operationen wg. Herzkrankheit  ,Number of operations due to heart disease,Metrisch,45,F2,
+847,C35,848,Regelmäßige Kontrollen notwendig   ,Regular checks necessary,Nominal,454,F2,
+848,C36,849,Eingeschränkte körperl. Leistung   ,Restricted physical performance,Ordinal,452,F2,
+849,C37,850,Endokarditisausweis     ,endocarditis card,Nominal,452,F2,
+850,C38,851,Fieberkrämpfe     ,febrile seizures,Nominal,533,F2,
+851,C39,852,Epilept. Anfälle    ,epilept. seizures,Nominal,532,F2,
+852,C39a,853,Häufigkeit: Epilept. Anfälle   ,Frequency: epilept. seizures,Nominal,156,F2,
+853,C16,854,Jemals Operation    ,Ever surgery,Nominal,17384,F2,
+854,C401,855,Entfernung d. Polypen   ,distance d. polyps,Nominal,6144,F2,
+855,C40J1,856,Alter (Jahre): Entfernung d. Polypen ,Age (years): distance d. polyps,Metrisch,2470,F2,
+856,C40M1,857,Alter (Monate): Entfernung d. Polypen ,Age (months): distance d. polyps,Metrisch,471,F2,
+857,C402,858,Entfernung d. Mandeln   ,distance d. almonds,Nominal,6144,F2,
+858,C40J2,859,Alter (Jahre): Entfernung d. Mandeln ,Age (years): distance d. almonds,Metrisch,963,F2,
+859,C40M2,860,Alter (Monate): Entfernung d. Mandeln ,Age (months): distance d. almonds,Metrisch,136,F2,
+860,C403,861,OP Leistenbruch    ,surgery inguinal hernia,Nominal,6144,F2,
+861,C40J3,862,Alter (Jahre): OP Leistenbruch  ,Age (years): Operation hernia,Metrisch,607,F2,
+862,C40M3,863,Alter (Monate): OP Leistenbruch  ,Age (months): OP hernia,Metrisch,310,F2,
+863,C404,864,Beschneidung     ,clipping,Nominal,6144,F2,
+864,C40J4,865,Alter (Jahre): Beschneidung   ,Age (years): circumcision,Metrisch,903,F2,
+865,C40M4,866,Alter (Monate): Beschneidung   ,Age (months): circumcision,Metrisch,205,F2,
+866,C405,867,Entfernung d. Blinddarms   ,distance d. appendix,Nominal,6144,F2,
+867,C40J5,868,Alter (Jahre): Entfernung d. Blinddarms ,Age (years): distance d. appendix,Metrisch,373,F2,
+868,C40M5,869,Alter (Monate): Entfernung d. Blinddarms ,Age (months): distance d. appendix,Metrisch,44,F2,
+869,C406,870,Sonstige OP    ,other surgeries,Nominal,6144,F2,
+870,C406J1,871,Alter (Jahre): 1 Sonst. OP ,Age (years): 1 Other. OP,Metrisch,3598,F2,-8
+871,C406M1,872,Alter (Monate): 1 Sonst. OP ,Age (months): 1 Other. OP,Metrisch,1005,F2,-8
+872,C406J2,873,Alter (Jahre): 2 Sonst. OP ,Age (years): 2 Other. OP,Metrisch,683,F2,
+873,C406M2,874,Alter (Monate): 2 Sonst. OP ,Age (months): 2 Other. OP,Metrisch,176,F2,
+874,C406J3,875,Alter (Jahre): 3 Sonst. OP ,Age (years): 3 Other. OP,Metrisch,161,F2,
+875,C406M3,876,Alter (Monate): 3 Sonst. OP ,Age (months): 3 Other. OP,Metrisch,34,F2,
+876,c406j4,877,Alter (Jahre): 4 Sonst. OP ,Age (years): 4 Other. OP,Metrisch,22,F2,
+877,c406m4,878,Alter (Monate): 4 Sonst. OP ,Age (months): 4 Other. OP,Metrisch,4,F2,
+878,Impfpop,879,Grundgesamtheit der Impfausweise   ,Population of vaccination certificates,Nominal,17640,F2,
+879,Teanzahl,880,Anzahl der Tetanusimpfungen   ,Number of tetanus vaccinations,Metrisch,16459,F2,
+880,TetJugA1,881,Tetanus: Vollständige Grundimmunisierung mit Booster und,Tetanus: Complete basic immunization with boosters and,Nominal,16459,F2,
+881,TetJugA2,882,Tetanus: Vollständige Grundimmunisierung mit Booster und,Tetanus: Complete basic immunization with boosters and,Nominal,16459,F2,
+882,Tetastat,883,Tetanusimpfstatus zum Zeitpunkt der Untersuchung ,Tetanus vaccination status at the time of the examination,Nominal,16459,F2,
+883,TetGrB,884,Tetanus: Grundimmunisierung mit Booster  ,Tetanus: basic immunization with booster,Nominal,16459,F2,
+884,TetGrund,885,Tetanus: Grundimmunisierung ohne Booster  ,Tetanus: basic immunization without boosters,Nominal,16459,F2,
+885,Dianzahl,886,Anzahl der Diphtherieimpfungen   ,Number of diphtheria vaccinations,Metrisch,16459,F2,
+886,DipJugA1,887,Diphtherie: Vollständige Grundimmunisierung mit Booster und,Diphtheria: Complete basic immunization with boosters and,Nominal,16459,F2,
+887,DipJugA2,888,Diphtherie: Vollständige Grundimmunisierung mit Booster und,Diphtheria: Complete basic immunization with boosters and,Nominal,16459,F2,
+888,Diphstat,889,Diphtherieimpfstatus zum Zeitpunkt der Untersuchung ,Diphtheria vaccination status at the time of the study,Nominal,16459,F2,
+889,DipGrB,890,Diphtherie: Grundimmunisierung mit Booster  ,Diphtheria: basic immunization with booster,Nominal,16459,F2,
+890,DipGrund,891,Diphtherie: Grundimmunisierung ohne Booster  ,Diphtheria: basic immunization without boosters,Nominal,16459,F2,
+891,Peanzahl,892,Anzahl der Pertussisimpfungen   ,Number of pertussis vaccinations,Metrisch,16459,F2,
+892,Pertstat,893,Pertussisimpfstatus zum Zeitpunkt der Untersuchung ,Pertussis vaccination status at the time of the study,Nominal,16459,F2,
+893,PerGrB,894,Pertussis: Grundimmunisierung mit Booster  ,Pertussis: basic immunization with booster,Nominal,16459,F2,
+894,PerGrund,895,Pertussis: Grundimmunisierung ohne Booster  ,Pertussis: basic immunization without boosters,Nominal,16459,F2,
+895,Hianzahl,896,Anzahl der Hibimpfungen    ,Number of hib vaccinations,Metrisch,16459,F2,
+896,Hibstat,897,Hib Impfstatus zum Zeitpunkt der Untersuchung ,Hib vaccination status at the time of the examination,Nominal,16459,F2,
+897,HibGrB,898,Hib: Grundimmunisierung mit Booster   ,Hib: basic immunization with booster,Nominal,16459,F2,
+898,HibGrund,899,Hib: Grundimmunisierung ohne Booster   ,Hib: basic immunization without boosters,Nominal,16459,F2,
+899,Heanzahl,900,Anzahl der Hepatitis B aktiv Impfungen ,Number of active hepatitis B vaccinations,Metrisch,16459,F2,
+900,HeBstat,901,Hepatitis B aktiv Impfstatus zum Zeitpunkt der Untersuchung  ,Hepatitis B active vaccination status at the time of the examination,Nominal,16459,F2,
+901,HeBGrB,902,Hepatitis B aktiv: Grundimmunisierung mit Booster ,Hepatitis B active: primary immunization with booster,Nominal,16459,F2,
+902,HeBGrund,903,Hepatitis B aktiv: Grundimmunisierung ohne Booster ,Hepatitis B active: basic immunization without booster,Nominal,16459,F2,
+903,Poanzahl,904,Anzahl der Polioimpfungen    ,Number of polio vaccinations,Metrisch,16459,F2,
+904,Polstat,905,Polioimpfstatus zum Zeitpunkt der Untersuchung  ,Polio vaccination status at the time of the study,Nominal,16459,F2,
+905,PolGrB,906,Polio: Grundimmunisierung mit Booster   ,Polio: basic immunization with booster,Nominal,16459,F2,
+906,PolGrund,907,Polio: Grundimmunisierung ohne Booster   ,Polio: basic immunization without boosters,Nominal,16459,F2,
+907,PolJugA2,908,Polio: Vollständige Grundimmunisierung mit Booster und ,Polio: Complete basic immunization with boosters and,Nominal,16459,F2,
+908,Maanzahl,909,AAnfzf aihldherMasernimpfungen     ,AAnfzf aihldher measles vaccinations,Metrisch,16459,F2,
+909,Masstat,910,Masernimpfstatus zum Zeitpunkt der Untersuchung  ,Measles vaccination status at the time of the study,Nominal,16459,F2,
+910,ersteMas,911,mind. eine Masernimpfung    ,at least one measles vaccination,Nominal,16459,F2,
+911,zweitMas,912,mind. zwei Masernimpfungen    ,at least two measles vaccinations,Nominal,16459,F2,
+912,Muanzahl,913,Anzahl der Mumpsimpfungen    ,Number of mumps vaccinations,Metrisch,16459,F2,
+913,Mumstat,914,Mumpsimpfstatus zum Zeitpunkt der Untersuchung  ,Mumps vaccination status at the time of the examination,Nominal,16459,F2,
+914,ersteMum,915,mind. eine Mumpsimpfung    ,at least one mumps vaccination,Nominal,16459,F2,
+915,zweitMum,916,mind. zwei Mumpsimpfungen    ,at least two mumps vaccinations,Nominal,16459,F2,
+916,Roanzahl,917,Anzahl der Roetelnimpfungen    ,Number of rubella vaccinations,Metrisch,16459,F2,
+917,Rotstat,918,Roetelnimpfstatus zum Zeitpunkt der Untersuchung  ,Rubella vaccination status at the time of the study,Nominal,16459,F2,
+918,ersteRoe,919,mind. eine Roetelnimpfung    ,at least one rubella vaccination,Nominal,16459,F2,
+919,zweitRoe,920,mind. zwei Roetelnimpfungen    ,at least two rubella vaccinations,Nominal,16459,F2,
+920,I13,921,Gab es Gründe gegen Impfung?  ,Were there any reasons against vaccination?,Nominal,17331,F2,
+921,I141,922,Gründe gegen Impfung: Häufig krank  ,Reasons against vaccination: Frequently ill,Nominal,16929,F2,
+922,I142,923,Gründe gegen Impfung: Angst vor Nebenwirkungen ,Reasons against vaccination: Fear of side effects,Nominal,16931,F2,
+923,I143,924,Gründe gegen Impfung: Lieber Krankheit durchmachen ,Reasons against vaccination: prefer to go through illness,Nominal,16921,F2,
+924,I144,925,Gründe gegen Impfung: Nicht informiert  ,Reasons against vaccination: Not informed,Nominal,16918,F2,
+925,I145,926,Gründe gegen Impfung: Vergessen   ,Reasons against vaccination: forgetting,Nominal,16923,F2,
+926,I146,927,Gründe gegen Impfung: Sonstige   ,Reasons against vaccination: Other,Nominal,16980,F3,
+927,I146c,928,Sonstiger Grund gegen Impfung (kodiert)  ,Other reason against vaccination (coded),Nominal,435,F3,
+928,I15,929,Hat Arzt von Impfungen abgeraten?  ,Did the doctor advise against vaccinations?,Nominal,17293,F2,
+929,I15c1,930,1 abgeratene Impfung (kodiert)   ,1 vaccination not recommended (coded),Nominal,996,F3,
+930,I15ac1,931,Grund: 1 abgeratene Impfung (kodiert)  ,Reason: 1 vaccination not recommended (coded),Nominal,987,F3,
+931,I15c2,932,2 abgeratene Impfung (kodiert)   ,2 vaccination not recommended (coded),Nominal,90,F3,
+932,I15ac2,933,Grund: 2 abgeratene Impfung (kodiert)  ,Reason: 2 vaccination not recommended (coded),Nominal,85,F3,
+933,I15c3,934,3 abgeratene Impfung (kodiert)   ,3 vaccination not recommended (coded),Nominal,11,F3,
+934,I15ac3,935,Grund: 3 abgeratene Impfung (kodiert)  ,Reason: 3 vaccination not recommended (coded),Nominal,11,F3,
+935,i16,936,Impfung schlecht vertragen?    ,Vaccination poorly tolerated?,Nominal,17182,F2,
+936,I161c2,937,1 schlecht vertragene Impfung (kodiert)  ,1 poorly tolerated vaccination (coded),Nominal,318,F3,
+937,I161c11,938,Symptome: 1 Impfung (kodiert)   ,Symptoms: 1 vaccination (coded),Nominal,347,F3,
+938,I161c12,939,2 Symptom: 1 Impfung (kodiert)  ,2 symptom: 1 vaccination (coded),Nominal,116,F3,
+939,I161c13,940,3 Symptom: 1 Impfung (kodiert)  ,3 symptom: 1 vaccination (coded),Nominal,31,F3,
+940,I161c14,941,4 Symptom: 1 Impfung (kodiert)  ,4 symptom: 1 vaccination (coded),Nominal,4,F3,
+941,i161z,942,Tage bis Symptombeginn: 1 Impfung  ,Days to onset of symptoms: 1 vaccination,Nominal,264,F3,
+942,i161,943,Impfschaden anerkannt: 1 Impfung   ,Vaccination damage recognized: 1 vaccination,Nominal,248,F2,
+943,I162c2,944,2 schlecht vertragene Impfung (kodiert)  ,2 Poorly Tolerated Vaccination (Coded),Nominal,3,F3,
+944,I162c1,945,Symptome: 2 Impfung (kodiert)   ,Symptoms: 2 vaccination (coded),Nominal,4,F3,
+945,i162z,946,Tage bis Symptombeginn: 2 Impfung  ,Days to onset of symptoms: 2 vaccinations,Nominal,3,F2,
+946,i162,947,Impfschaden anerkannt: 2 Impfung   ,Vaccination damage recognized: 2 vaccinations,Nominal,3,F2,
+947,I163c2,948,3 schlecht vertragene Impfung (kodiert)  ,3 Poorly Tolerated Vaccination (Coded),Nominal,1,F3,
+948,I163c1,949,Symptome: 3 Impfung (kodiert)   ,Symptoms: 3 vaccination (coded),Nominal,1,F3,
+949,i163z,950,Tage bis Symptombeginn: 3 Impfung  ,Days to onset of symptoms: 3 vaccinations,Metrisch,0,F2,
+950,i163,951,Impfschaden anerkannt: 3 Impfung   ,Vaccination damage recognized: 3 vaccinations,Nominal,1,F2,
+951,anz_med,952,Anzahl Medikamente i.d.l. 7 Tagen  ,Number of medications idl 7 days,Nominal,17449,F2,
+952,AMa00,953,ALIMENTÄRES SYSTEM UND STOFFWECHSEL   ,ALIMENTARY SYSTEM AND METABOLISM,Nominal,17449,F2,
+953,AMb00,954,BLUT UND BLUT BILDENDE ORGANE  ,BLOOD AND BLOOD-FORMING ORGANS,Nominal,17449,F2,
+954,AMc00,955,KARDIOVASKULÄRES SYSTEM     ,CARDIOVASCULAR SYSTEM,Nominal,17449,F2,
+955,AMd00,956,DERMATIKA      ,DERMATICA,Nominal,17449,F2,
+956,AMg00,957,UROGENITALSYSTEM UND SEXUALHORMONE    ,UROGENITAL SYSTEM AND SEXUAL HORMONES,Nominal,17449,F2,
+957,AMh00,958,"SYST. HORMONPRÄP., EXKL. SEXUALHORM. U. INSULINE ","SYST. HORMONE PREP., EXCL. SEXUAL HORM. AND INSULINE",Nominal,17449,F2,
+958,AMj00,959,ANTIINFEKTIVA Z. SYSTEMISCHEN ANWEND.   ,ANTIINFECTIVES FOR SYSTEMIC APPLICATION.,Nominal,17449,F2,
+959,AMl00,960,ANTINEOPLAST. U. IMMUNMODULIER. MITTEL   ,ANTINEOPLAST. U. IMMUNOMODULIER. MEDIUM,Nominal,17449,F2,
+960,AMm00,961,MUSKEL- UND SKELETTSYSTEM    ,MUSCLE AND SKELETAL SYSTEM,Nominal,17449,F2,
+961,AMn00,962,NERVENSYSTEM      ,NERVOUS SYSTEM,Nominal,17449,F2,
+962,AMp00,963,"ANTIPARASIT. MITTEL, INSEKTIZIDE U. REPELL.  ","ANTIPARASITE. AGENT, INSECTICIDES & REPELL.",Nominal,17449,F2,
+963,AMr00,964,RESPIRATIONSTRAKT      ,RESPIRATORY TRACT,Nominal,17449,F2,
+964,AMs00,965,SINNESORGANE      ,SENSE ORGANS,Nominal,17449,F2,
+965,AMv00,966,VARIA      ,VARIA,Nominal,17449,F2,
+966,AMz00,967,"HOMÖOPATHIKA, NICHT ANDERS ZUORDENB.   ",HOMEOPATHICS NOT OTHERWISE ALLOCATEDB.,Nominal,17449,F2,
+967,AMa01,968,Stomatologika      ,stomatology,Nominal,17449,F2,
+968,AMa11,969,Vitamine      ,vitamins,Nominal,17449,F2,
+969,AMa12,970,Mineralstoffe      ,minerals,Nominal,17449,F2,
+970,AMd02,971,Emollientia u. Hautschutzmittel    ,Emollients and skin protectants,Nominal,17449,F2,
+971,AMd03,972,Zubereitungen z. Behandl. v. Wunden u. Geschwüren ,preparations e.g. treatment v. Wounds & Ulcers,Nominal,17449,F2,
+972,AMd07,973,"Corticosteroide, dermatol. Zubereitungen    ","Corticosteroids, dermatol. preparations",Nominal,17449,F2,
+973,AMd11,974,Andere Dermatika     ,Other dermatics,Nominal,17449,F2,
+974,AMg03,975,Sexualhormone u. Modulatoren d. Genitalsystems  ,Sex hormones and modulators d. genital system,Nominal,17449,F2,
+975,AMh03,976,Schilddrüsentherapie      ,thyroid therapy,Nominal,17449,F2,
+976,AMj01,977,Antibiotika zur systemischen Anwendung   ,Antibiotics for systemic use,Nominal,17449,F2,
+977,AMm01,978,Antiphlogistika und Antirheumatika    ,anti-inflammatory and anti-rheumatic drugs,Nominal,17449,F2,
+978,AMm02,979,Topische Mittel gg. Gelenk- u. Muskelschmerzen ,Topical remedies for joint and muscle pain,Nominal,17449,F2,
+979,AMn02,980,Analgetika      ,analgesics,Nominal,17449,F2,
+980,AMr01,981,Rhinologika      ,rhinologicals,Nominal,17449,F2,
+981,AMr02,982,Hals- und Rachentherapeutika    ,throat and throat therapeutics,Nominal,17449,F2,
+982,AMr03,983,Antiasthmatika      ,antiasthmatics,Nominal,17449,F2,
+983,AMr04,984,"Perkutane Balsamika, sonst. Inhalate   ","Percutaneous balsams, other inhalants",Nominal,17449,F2,
+984,AMr05,985,Husten- und Erkältungspräparate    ,cough and cold preparations,Nominal,17449,F2,
+985,AMr06,986,Antihistaminika zur systemischen Anwendung   ,Antihistamines for systemic use,Nominal,17449,F2,
+986,fq01,987,Wie oft Milch?    ,How often milk?,Ordinal,15704,F2,-7
+987,fq01a,988,Wie viel Milch?    ,how much milk,Ordinal,15644,F2,-7
+988,fq01b,989,Welche Art von Milch?   ,What kind of milk?,Nominal,15173,F2,-7
+989,fq02,990,Wie oft Erfrischungsgetränke?    ,How often soft drinks?,Ordinal,15755,F2,-7
+990,fq02a,991,Wie viel Erfrischungsgetränke?    ,How many soft drinks?,Ordinal,15727,F2,-7
+991,fq02b,992,Wie oft davon Light-Getränke?   ,How often of these diet drinks?,Ordinal,13288,F2,-7
+992,fq03,993,Wie oft Sportler- oder Energiegetränke?  ,How often sports or energy drinks?,Ordinal,15631,F2,-7
+993,fq03a,994,Wie viel Sportler- oder Energiegetränke?  ,How much sports or energy drinks?,Ordinal,15610,F2,-7
+994,fq04,995,"Wie oft Fruchtsaft, Fruchtnektar, Gemüsesaft?  ","How often fruit juice, fruit nectar, vegetable juice?",Ordinal,15729,F2,-7
+995,fq04a,996,Wie viel Saft?    ,how much juice,Ordinal,15731,F2,-7
+996,fq05,997,Wie oft Leitungswasser?    ,How often tap water?,Ordinal,15659,F2,-7
+997,fq05a,998,Wie viel Leitungswasser?    ,How much tap water?,Ordinal,15601,F2,-7
+998,fq06,999,Wie oft Mineralwasser?    ,How often mineral water?,Ordinal,15680,F2,-7
+999,fq06a,1000,Wie viel Mineralwasser?    ,How much mineral water?,Ordinal,15654,F2,-7
+1000,fq07,1001,Wie oft Früchte- oder Kräutertee?  ,How often fruit or herbal tea?,Ordinal,15735,F2,-7
+1001,fq07a,1002,Wie viel Früchte- oder Kräutertee?  ,How much fruit or herbal tea?,Ordinal,15693,F2,-7
+1002,fq08,1003,Wie oft schwarzer oder grüner Tee? ,How often black or green tea?,Ordinal,15670,F2,-7
+1003,fq08a,1004,Wie viel schwarzer oder grüner Tee? ,How much black or green tea?,Ordinal,15666,F2,-7
+1004,fq09,1005,Wie oft Kaffee?    ,How often coffee?,Ordinal,15711,F2,-7
+1005,fq09a,1006,Wie viel Kaffee?    ,how much coffee,Ordinal,15695,F2,-7
+1006,fq10,1007,"Wie oft Müsli, Cornflakes oder Smacks? ","How often muesli, cornflakes or smacks?",Ordinal,15763,F2,-7
+1007,fq10a,1008,"Wie viel Müsli, Cornflakes oder Smacks? ","How much muesli, cornflakes or smacks?",Ordinal,15735,F2,-7
+1008,fq11,1009,Wie oft Vollkornbrot/-brötchen oder Schwarzbrot?  ,How often wholemeal bread/rolls or brown bread?,Ordinal,15755,F2,-7
+1009,fq11a,1010,Wie viel Vollkornbrot/-brötchen oder Schwarzbrot?  ,How much wholemeal bread/rolls or brown bread?,Ordinal,15708,F2,-7
+1010,fq12,1011,"Wie oft Weißbrot, Graubrot oder Brötchen? ","How often white bread, brown bread or rolls?",Ordinal,15803,F2,-7
+1011,fq12a,1012,"Wie viel Weißbrot, Graubrot oder Brötchen? ","How much white bread, brown bread or rolls?",Ordinal,15788,F2,-7
+1012,fq13,1013,Wie oft Butter?    ,How often butter?,Ordinal,15721,F2,-7
+1013,fq13a,1014,Wie viel Butter?    ,how much butter,Ordinal,15627,F2,-7
+1014,fq14,1015,Wie oft Margarine?    ,How often margarine?,Ordinal,15664,F2,-7
+1015,fq14a,1016,Wie viel Margarine?    ,how much margarine,Ordinal,15625,F2,-7
+1016,fq15,1017,"Wie oft Käse (Weich-, Schnitt- oder Hartkäse)? ","How often cheese (soft, sliced or hard cheese)?",Ordinal,15782,F2,-7
+1017,fq15a,1018,"Wie viel Käse (Weich-, Schnitt- oder Hartkäse)? ","How much cheese (soft, sliced or hard cheese)?",Ordinal,15738,F2,-7
+1018,fq15b,1019,Wie oft fettarmer Käse davon?  ,How often low-fat cheese like this?,Ordinal,14182,F2,-7
+1019,fq16,1020,"Wie oft Quark, Joghurt oder Dickmilch? ","How often quark, yoghurt or sour milk?",Ordinal,15804,F2,-7
+1020,fq16a,1021,"Wie viel Quark, Joghurt oder Dickmilch? ","How much quark, yoghurt or sour milk?",Ordinal,15763,F2,-7
+1021,fq16b,1022,"Wie oft fettarmer Quark, Joghurt, Dickmilch ","How often low-fat cottage cheese, yogurt, sour milk",Ordinal,14950,F2,-7
+1022,fq17,1023,Wie oft Frischkäse?    ,How often cream cheese?,Ordinal,15676,F2,-7
+1023,fq17a,1024,Wie viel Frischkäse?    ,How much cream cheese?,Ordinal,15651,F2,-7
+1024,fq17b,1025,Wie oft fettarmer Frischkäse davon?  ,How often low-fat cream cheese like this?,Ordinal,11274,F2,-7
+1025,fq18,1026,Wie oft Eier?    ,How often eggs?,Ordinal,15785,F2,-7
+1026,fq18a,1027,Wie viel Eier?    ,how many eggs,Ordinal,15779,F2,-7
+1027,fq19,1028,Wie oft Suppe?    ,How often soup?,Ordinal,15802,F2,-7
+1028,fq19a,1029,Wie viel Suppe?    ,how much soup,Ordinal,15785,F2,-7
+1029,fq20,1030,"Wie oft Fleisch (ohne Geflügel, ohne Wurst)? ","How often meat (without poultry, without sausage)?",Ordinal,15704,F2,-7
+1030,fq20a,1031,"Wie viel Fleisch (ohne Geflügel, ohne Wurst)? ","How much meat (without poultry, without sausage)?",Ordinal,15675,F2,-7
+1031,fq20b,1032,Wie oft paniertes Fleisch?   ,How often breaded meat?,Ordinal,14952,F2,-7
+1032,fq21,1033,Wie oft Geflügel?    ,How often poultry?,Ordinal,15684,F2,-7
+1033,fq21a,1034,Wie viel Geflügel?    ,How much poultry?,Ordinal,15677,F2,-7
+1034,fq21b,1035,Wie oft paniertes bzw. frittiertes Geflügel? ,How often breaded or fried poultry?,Ordinal,14868,F2,-7
+1035,fq22,1036,Wie oft Wurst oder Schinken?  ,How often sausage or ham?,Ordinal,15716,F2,-7
+1036,fq22a,1037,Wie viel Wurst oder Schinken?  ,How much sausage or ham?,Ordinal,15684,F2,-7
+1037,fq23,1038,Wie oft Fisch?    ,How often fish?,Ordinal,15788,F2,-7
+1038,fq23a,1039,Wie viel Fisch?    ,how much fish,Ordinal,15754,F2,-7
+1039,fq23b,1040,Wie oft panierten oder frittierten Fisch ,How often breaded or fried fish,Ordinal,13636,F2,-7
+1040,fq24,1041,Wie oft frisches Obst?   ,How often fresh fruit?,Ordinal,15800,F2,-7
+1041,fq24a,1042,Wie viel frisches Obst?   ,How much fresh fruit?,Ordinal,15799,F2,-7
+1042,fq25,1043,Wie oft gekochtes Obst oder Konservenobst? ,How often cooked fruit or canned fruit?,Ordinal,15750,F2,-7
+1043,fq25a,1044,Wie viel gekochtes Obst oder Konservenobst? ,How much cooked fruit or canned fruit?,Ordinal,15711,F2,-7
+1044,fq26,1045,Wie oft gekochtes Gemüse?   ,How often cooked vegetables?,Ordinal,15746,F2,-7
+1045,fq26a,1046,Wie viel gekochtes Gemüse?   ,How many cooked vegetables?,Ordinal,15726,F2,-7
+1046,fq27,1047,Wie oft Tiefkühlgemüse?    ,How often frozen vegetables?,Ordinal,15693,F2,-7
+1047,fq27a,1048,Wie viel Tiefkühlgemüse?    ,How much frozen vegetables?,Ordinal,15678,F2,-7
+1048,fq28,1049,Wie oft Konservengemüse?    ,How often canned vegetables?,Ordinal,15679,F2,-7
+1049,fq28a,1050,Wie viel Konservengemüse?    ,How many canned vegetables?,Ordinal,15631,F2,-7
+1050,fq29,1051,"Wie oft Blattsalat, Rohkost oder rohes Gemüse? ","How often lettuce, raw vegetables or raw vegetables?",Ordinal,15786,F2,-7
+1051,fq29a,1052,"Wie viel Blattsalat, Rohkost oder rohes Gemüse? ","How much lettuce, raw food or raw vegetables?",Ordinal,15749,F2,-7
+1052,fq29b,1053,Wie viel Salatdressing dazu?   ,How much salad dressing with that?,Ordinal,14651,F2,-7
+1053,fq30,1054,Wie oft Nudeln oder Reis?  ,How often pasta or rice?,Ordinal,15811,F2,-7
+1054,fq30a,1055,Wie viel Nudeln oder Reis?  ,How much pasta or rice?,Ordinal,15814,F2,-7
+1055,fq31,1056,Wie oft gekochte Kartoffeln?   ,How often boiled potatoes?,Ordinal,15804,F2,-7
+1056,fq31a,1057,Wie viel gekochte Kartoffeln?   ,How many boiled potatoes?,Ordinal,15796,F2,-7
+1057,fq32,1058,Wie oft frittierte oder gebratene Kartoffeln? ,How often fried or fried potatoes?,Ordinal,15795,F2,-7
+1058,fq32a,1059,Wie viel frittierte oder gebratene Kartoffeln? ,How much fried or fried potatoes?,Ordinal,15764,F2,-7
+1059,fq33,1060,"Wie oft Brat-, Currywurst, Hamburger oder Döner ","How often bratwurst, currywurst, hamburger or kebab",Ordinal,15770,F2,-7
+1060,fq33a,1061,"Wie viel Brat-, Currywurst, Hamburger oder Döner ","How much bratwurst, currywurst, hamburger or kebab",Ordinal,15748,F2,-7
+1061,fq34,1062,Wie oft Ketchup oder Majonäse?  ,How often ketchup or mayonnaise?,Ordinal,15790,F2,-7
+1062,fq34a,1063,Wie viel Ketchup oder Majonäse?  ,How much ketchup or mayonnaise?,Ordinal,15758,F2,-7
+1063,fq35,1064,Wie oft Kuchen oder Gebäck (ohne Kekse)? ,How often cakes or pastries (excluding biscuits)?,Ordinal,15793,F2,-7
+1064,fq35a,1065,Wie viel Kuchen oder Gebäck (ohne Kekse)? ,How much cake or pastries (excluding biscuits)?,Ordinal,15766,F2,-7
+1065,fq36,1066,Wie oft Kekse?    ,How often cookies?,Ordinal,15740,F2,-7
+1066,fq36a,1067,Wie viel Kekse?    ,how many cookies,Ordinal,15715,F2,-7
+1067,fq37,1068,Wie oft Schokolade oder Schokoriegel?  ,How often chocolate or candy bars?,Ordinal,15757,F2,-7
+1068,fq37a,1069,Wie viel Schokolade oder Schokoriegel?  ,How much chocolate or candy bar?,Ordinal,15726,F2,-7
+1069,fq38,1070,Wie oft Süßigkeiten?    ,How often sweets?,Ordinal,15758,F2,-7
+1070,fq38a,1071,Wie viel Süßigkeiten?    ,how much candy,Ordinal,15698,F2,-7
+1071,fq39,1072,Wie oft Eis?    ,How often ice cream?,Ordinal,15732,F2,-7
+1072,fq39a,1073,Wie viel Eis?    ,how much ice cream,Ordinal,15729,F2,-7
+1073,fq40,1074,Wie oft Pudding oder Milchreis?  ,How often pudding or rice pudding?,Ordinal,15763,F2,-7
+1074,fq40a,1075,Wie viel Pudding oder Milchreis?  ,How much pudding or rice pudding?,Ordinal,15732,F2,-7
+1075,fq41,1076,Wie oft Pfannkuchen (Eierkuchen)?   ,How often pancakes (pancakes)?,Ordinal,15759,F2,-7
+1076,fq41a,1077,Wie viel Pfannkuchen (Eierkuchen)?   ,How many pancakes (pancakes)?,Ordinal,15751,F2,-7
+1077,fq42,1078,Wie oft Honig oder Marmelade?  ,How often honey or jam?,Ordinal,15773,F2,-7
+1078,fq42a,1079,Wie viel Honig oder Marmelade?  ,How much honey or jam?,Ordinal,15732,F2,-7
+1079,fq43,1080,Wie oft Nuss-Nougatcreme?    ,How often nut nougat cream?,Ordinal,15746,F2,-7
+1080,fq43a,1081,Wie viel Nuss-Nougatcreme?    ,How much nut nougat cream?,Ordinal,15720,F2,-7
+1081,fq44,1082,"Wie oft Knabberartikel (Chips, Salzstangen, Cracker)? ","How often snack items (crisps, pretzel sticks, crackers)?",Ordinal,15767,F2,-7
+1082,fq44a,1083,"Wie viel Knabberartikel (Chips, Salzstangen, Cracker)? ","How many snack items (crisps, pretzel sticks, crackers)?",Ordinal,15724,F2,-7
+1083,fq45,1084,Wie oft Nüsse?    ,How often nuts?,Ordinal,15712,F2,-7
+1084,fq45a,1085,Wie viel Nüsse?    ,how many nuts,Ordinal,15695,F2,-7
+1085,fq46,1086,Nimmst Du Jodsalz?    ,Do you take iodized salt?,Ordinal,15484,F2,-7
+1086,fq47,1087,Nimmst Du Jodsalz mit Fluorid?  ,Do you take iodized salt with fluoride?,Ordinal,15394,F2,-7
+1087,fq48,1088,Wie oft Multivitamintabletten?    ,How often multivitamin tablets?,Ordinal,15700,F2,-7
+1088,fq49,1089,Andere Vitamin oder Mineralstofftabletten eingenommen?  ,Have you taken any other vitamin or mineral supplements?,Nominal,15210,F2,-7
+1089,fq4901,1090,Vitamin C     ,vitamin C,Nominal,2748,F2,-7
+1090,fq4902,1091,Vitamin E     ,vitamin E,Nominal,2748,F2,-7
+1091,fq4903,1092,Beta-Carotin      ,beta-carotene,Nominal,2748,F2,-7
+1092,fq4904,1093,Vitamin A     ,Vitamin A,Nominal,2748,F2,-7
+1093,fq4905,1094,Vitamin B     ,vitamin B,Nominal,2748,F2,-7
+1094,fq4906,1095,Vitamin D     ,Vitamin D,Nominal,2748,F2,-7
+1095,fq4907,1096,Calcium      ,calcium,Nominal,2748,F2,-7
+1096,fq4908,1097,Magnesium      ,magnesium,Nominal,2748,F2,-7
+1097,fq4909,1098,Fluorid      ,fluoride,Nominal,2748,F2,-7
+1098,fq4910,1099,Eisen      ,iron,Nominal,2748,F2,-7
+1099,fq50,1100,Wie oft Fertiggerichte?    ,How often ready meals?,Ordinal,15669,F2,-7
+1100,fq51,1101,Wie oft Light-Produkte?    ,How often light products?,Ordinal,15619,F2,-7
+1101,fq52,1102,Wie oft Getränke mit Vitaminzusatz?  ,How often drinks with added vitamins?,Ordinal,15655,F2,-7
+1102,fq53,1103,Wie oft Lebensmittel mit Vitamin- oder Mineralstoffzusatz? ,How often foods with added vitamins or minerals?,Ordinal,15400,F2,-7
+1103,fq54,1104,Wie oft probiotische Lebensmittel?   ,How often probiotic foods?,Ordinal,15457,F2,-7
+1104,bril,1105,Brillenträger      ,glasses wearer,Nominal,14783,F2,-7
+1105,brilz,1106,Brille seit ... Lebensjahr   ,Glasses since ... years of age,Metrisch,2663,F2,"-7, -9"
+1106,se_c,1107,Grund für Brille (kodiert)   ,Reason for glasses (coded),Nominal,2686,F2,-7
+1107,sys1,1108,Systole 1.Mess. (mmHG)    ,Systole 1st meas. (mmHG),Metrisch,14662,F3,"-7, -8"
+1108,amd1,1109,Arter. Mitteldruck (mmHg)    ,arter mean pressure (mmHg),Metrisch,14662,F3,"-7, -8"
+1109,dia1,1110,Diastole 1.Mess. (mmHg)    ,Diastole 1st meas. (mmHg),Metrisch,14662,F3,"-7, -8"
+1110,puls1,1111,Ruhepuls 1 Mess. (1/Min.)   ,Resting heart rate 1 meas. (rpm),Metrisch,234,F3,-7
+1111,ampl1,1112,Amplitude 1 Messung (mmHg)   ,Amplitude 1 measurement (mmHg),Metrisch,14662,F3,-7
+1112,sys2,1113,Systole 2.Mess. (mmHg)    ,Systole 2nd meas. (mmHg),Metrisch,14605,F3,"-7, -8"
+1113,amd2,1114,Arter. Mitteldruck 2.Mess. (mmHg)   ,arter Medium pressure 2nd meas. (mmHg),Metrisch,14605,F3,"-7, -8"
+1114,dia2,1115,Diastole 2.Mess. (mmHg)    ,Diastole 2nd meas. (mmHg),Metrisch,14605,F3,"-7, -8"
+1115,puls2,1116,Ruhepuls 2.Mess. (1/Min.)    ,Resting heart rate 2nd measurement (rpm),Metrisch,14608,F3,"-7, -8"
+1116,ampl2,1117,Amplitude 2 Messung (mmHg)   ,Amplitude 2 measurement (mmHg),Metrisch,14605,F3,-7
+1117,sys12,1118,MW Systole (mmHg)    ,Mean Systole (mmHg),Metrisch,14702,F3,-7
+1118,amd12,1119,MW arter. Mitteldruck (mmHg)   ,MW arter. mean pressure (mmHg),Metrisch,14702,F3,-7
+1119,dia12,1120,MW Diastole (mmHg)    ,Mean diastole (mmHg),Metrisch,14702,F3,-7
+1120,ampl12,1121,MW Amplitude (mmHg)    ,MW amplitude (mmHg),Metrisch,14702,F3,-7
+1121,groeB_m,1122,1122 Indikator: Größe unterhalb des 2.5 Perzentils oder oberhalb des 97.5 Nominal Perzentils (nach Geschlecht und Alter),1122 Indicator: height below the 2.5 percentile or above the 97.5 nominal percentile (by sex and age),,17640,F3,
+1122,groeB,1123,"Größe (cm), Werte <2.5 bzw. >97.5 Perzentil (nach Geschlecht und Alter) durch Mittelwert ersetzt","Height (cm), values <2.5 or >97.5 percentile (according to sex and age) replaced by mean",Metrisch,17553,F5.1,
+1123,gewiB_m,1124,Indikator: Gewicht unterhalb des 2.5 Perzentils oder oberhalb des 97.5 Perzentils (nach Geschlecht und Alter),Indicator: weight below the 2.5 percentile or above the 97.5 percentile (by sex and age),Nominal,17640,F3,
+1124,gewiB,1125,"Gewicht (kg), Werte <2.5 bzw. >97.5 Perzentil (nach Geschlecht und Alter) durch Mittelwert ersetzt","Weight (kg), values <2.5 or >97.5 percentile (according to sex and age) replaced by mean",Metrisch,17541,F5.1,
+1125,bmiB,1126,"Body-Mass-Index (kg/qm), berechnet aus gewiB und groeB","Body mass index (kg/sqm), calculated from geweiB and groeB",Nominal,17493,F5.1,
+1126,bmiKH,1127,BMI kateg. n. Kromeyer-Hauschild 2001,BMI categorized n. Kromeyer-Hauschild 2001,Ordinal,17493,F2,
+1127,UeberKH,1128,Übergewicht (>P90 nach Kromeyer-Hauschild),Overweight (>P90 according to Kromeyer-Hauschild),Nominal,14746,F2,-7
+1128,AdiposKH,1129,Adipositas (>P97 nach Kromeyer-Hauschild),Obesity (>P97 according to Kromeyer-Hauschild),Nominal,14746,F2,-7
+1129,UeberIO,1130,Übergewicht (>P_BMI25 nach IOTF),Overweight (>P_BMI25 according to IOTF),Nominal,14746,F2,-7
+1130,AdiposIO,1131,Adipositas (>P_BMI30 nach IOTF),Obesity (>P_BMI30 according to IOTF),Nominal,14746,F2,-7
+1131,kopf,1132,Kopfumfang (cm)    ,head circumference (cm),Metrisch,17429,F4.1,"-8,0"
+1132,arml,1133,Oberarmlänge (cm)    ,Upper arm length (cm),Metrisch,17372,F4.1,"-8,0"
+1133,tail,1134,Taillenumfang (cm)    ,Waist circumference (cm),Metrisch,6744,F5.1,"-7,0, -8,0"
+1134,huef,1135,Hüftumfang (cm)    ,hip circumference (cm),Metrisch,6733,F5.1,"-7,0, -8,0"
+1135,whr,1136,Waist-to-Hip Ratio    ,Waist to hip ratio,Metrisch,6731,F6.4,"-70,000"
+1136,WHtR,1137,Waist-to-Height Ratio    ,Waist-to-Height Ratio,Metrisch,6740,F6.4,"-70,000"
+1137,ebog,1138,Ellbogenbreite (cm)    ,elbow width (cm),Metrisch,11775,F3.1,"-7,0, -8,0"
+1138,tricps,1139,Hautfd. Oberarm (mm)   ,skin upper arm (mm),Metrisch,17284,F4.1,"-8,0"
+1139,rueck,1140,Hautfd. Rücken (mm)   ,skin spine (mm),Metrisch,17245,F4.1,"-8,0"
+1140,peri,1141,Regelblutung/Menstruation     ,menstrual period,Nominal,3775,F2,-7
+1141,zuperi,1142,Zurzeit Regelblutungen    ,Currently menstrual bleeding,Nominal,2343,F2,-7
+1142,scham_w,1143,"Schambehaarung lt. Abb. (subj., nach Tanner)","Pubic hair as shown (subj., after Tanner)",Ordinal,3738,F2,-7
+1143,Menar,1144,Menarche     ,menarche,Ordinal,3775,F2,-7
+1144,stim,1145,Stimmbruch/Mutation     ,Voice break/mutation,Ordinal,3956,F2,-7
+1145,scham_m,1146,"Schambehaarung lt. Abb. (subj., nach Tanner)","Pubic hair as shown (subj., after Tanner)",Ordinal,3932,F2,-7
+1146,alburin,1147,Albumin im Urin   ,albumin in the urine,Ordinal,15552,F2,
+1147,ph_su,1148,pH-Wert (Spontanurin)    ,pH value (spontaneous urine),Metrisch,15634,F2,
+1148,leukurin,1149,Leukozyten im Urin   ,leukocytes in the urine,Ordinal,15649,F2,
+1149,nitr,1150,Nitrit im Urin   ,nitrite in the urine,Nominal,15654,F2,
+1150,eiwsurin,1151,Eiweiß im Urin   ,protein in the urine,Ordinal,15661,F2,
+1151,glucurin,1152,Glukose im Urin   ,glucose in the urine,Ordinal,15662,F2,
+1152,keto,1153,Ketonkörper im Urin   ,ketone bodies in urine,Ordinal,15665,F2,
+1153,ubg,1154,Urobilinogen im Urin   ,urobilinogen in urine,Ordinal,15663,F2,
+1154,biliurin,1155,Bilirubin im Urin   ,bilirubin in the urine,Ordinal,15663,F2,
+1155,eryturin,1156,Erythrozyten im Urin   ,erythrocytes in the urine,Ordinal,15663,F2,
+1156,KreaUrin,1157,Kreatinin im Urin [mg/dl]  ,Creatinine in urine [mg/dl],Metrisch,15103,F8.2,
+1157,uhr1_bl,1158,Uhrzeit Blutabnahme    ,Time of blood collection,Metrisch,15099,TIME5,
+1158,uhr2_bl,1159,Uhrzeit letzte Mahlzeit   ,Time of last meal,Metrisch,15244,TIME5,
+1159,ERYT,1160,Erythrozytenzahl (RBC) [Mio/?l]   ,Erythrocyte count (RBC) [Mio/?l],Metrisch,14072,F8.2,"-7,00"
+1160,PCV,1161,Hämatokrit [%]    ,Hematocrit [%],Metrisch,14075,F8.1,"-7,0"
+1161,HAEM,1162,Hämoglobin im Blut (Hb) [g/dl] ,Blood hemoglobin (Hb) [g/dl],Metrisch,14074,F8.1,"-7,0"
+1162,MCH,1163,Mittlerer Hämoglobingehalt des Erythrozyten (MCH) [pg],Mean erythrocyte hemoglobin content (MCH) [pg],Metrisch,14075,F8.1,"-7,0"
+1163,MCHC,1164,Mittlere Hämoglobinkonzentration der Erythrozyten (MCHC) [g/dl],Mean erythrocyte hemoglobin concentration (MCHC) [g/dl],Metrisch,14075,F8.1,"-7,0"
+1164,MCV,1165,Erythrozytenvolumen (MCV) [fl]   ,Erythrocyte volume (MCV) [fl],Metrisch,14075,F8.1,"-7,0"
+1165,ALKP,1166,Alkalische Phosphatase [U/l]   ,Alkaline phosphatase [U/l],Metrisch,14254,F8,-7
+1166,PHOS,1167,Anorganisches Phosphat [mmol/l]   ,Inorganic phosphate [mmol/l],Metrisch,14237,F8.2,"-7,00"
+1167,Eisen,1168,Eisen [?mol/l]    ,iron [?mol/l],Metrisch,14239,F8.1,"-7,0"
+1168,Ferritin,1169,Ferritin [?g/l]    ,Ferritin [?g/l],Metrisch,13082,F8.2,"-7,00"
+1169,Eiweiss,1170,Eiweiß ges. [g/dl]   ,total protein [g/dl],Metrisch,14158,F8.1,"-7,0"
+1170,GGT,1171,Gamma-Glutamyltransferase [U/l]    ,Gamma-Glutamyltransferase [U/l],Metrisch,14254,F8,-7
+1171,GLUCX,1172,Glukose im Serum [mg/dl]  ,Glucose in serum [mg/dl],Metrisch,14250,F8,-7
+1172,HbA1c,1173,Glykohämoglobin 1c [%]   ,Glycohemoglobin 1c [%],Metrisch,14097,F8.1,"-7,0"
+1173,SAURX,1174,Harnsäure [mg/dl]    ,uric acid [mg/dl],Metrisch,14248,F8.2,"-7,00"
+1174,CHOLX,1175,Cholesterin gesamt [mg/dl]   ,Total cholesterol [mg/dl],Metrisch,14247,F8,-7
+1175,HDLX,1176,HDL-Cholesterin [mg/dl]    ,HDL cholesterol [mg/dl],Metrisch,14248,F8.1,"-7,0"
+1176,LDLX,1177,LDL-Cholesterin [mg/dl]    ,LDL cholesterol [mg/dl],Metrisch,14232,F8,-7
+1177,GLYCX,1178,Triglyceride [mg/dl]    ,Triglycerides [mg/dl],Metrisch,14249,F8,-7
+1178,KALI,1179,Kalium [mmol/l]    ,Potassium [mmol/l],Metrisch,14256,F8.2,"-7,00"
+1179,KALZ,1180,Kalzium [mmol/l]    ,Calcium [mmol/l],Metrisch,14250,F8.2,"-7,00"
+1180,MAGN,1181,Magnesium [mmol/l]    ,Magnesium [mmol/l],Metrisch,14209,F8.2,"-7,00"
+1181,VitD,1182,25(OH)Vitamin D [nmol/l] DiaSorin  ,25(OH)Vitamin D [nmol/L] DiaSorin,Metrisch,10015,F8.2,"-7,00"
+1182,STFR,1183,Löslicher Transferrin- Rezeptor [mg/l] Behring ,Soluble transferrin receptor [mg/L] Behring,Metrisch,8579,F8.2,"-7,00"
+1183,VitB12,1184,Vitamin B12 [ng/l]   ,Vitamin B12 [ng/l],Metrisch,13049,F8.1,"-7,0"
+1184,Homocyst,1185,Homocystein [?mol/l]    ,homocysteine [?mol/l],Metrisch,13967,F8.2,"-7,00"
+1185,S_InhSCR,1186,"Sensibilisierung SX1-Screening (g6,g12,t3,w6,m2,d1,e1,e5)   ","Sensitization SX1 screening (g6,g12,t3,w6,m2,d1,e1,e5)",Nominal,14127,F2,-7
+1186,S_DermPt,1187,Sensibilisierung Dermatophagoides pteronyssinus (d1)  ,Sensitization Dermatophagoides pteronyssinus (d1),Nominal,13055,F2,-7
+1187,S_DermFa,1188,Sensibilisierung Dermatophagoides farinae (d2)  ,Sensitization Dermatophagoides farinae (d2),Nominal,13054,F2,-7
+1188,S_Katze,1189,Sensibilisierung Katzenschuppen (e1)   ,Sensitization to cat dander (e1),Nominal,13045,F2,-7
+1189,S_Pferd,1190,Sensibilisierung Pferdeepithelien (e3)   ,Sensitization of horse epithelia (e3),Nominal,13039,F2,-7
+1190,S_Hund,1191,Sensibilisierung Hundeschuppen (e5)   ,Sensitization to dog dander (e5),Nominal,13046,F2,-7
+1191,S_Eiklar,1192,Sensibilisierung Eiklar (f1)   ,Sensitization albumen (f1),Nominal,14153,F2,-7
+1192,S_MEiws,1193,Sensibilisierung Milcheiweiß (f2)   ,Sensitization milk protein (f2),Nominal,13043,F2,-7
+1193,S_WMehl,1194,Sensibilisierung Weizenmehl (f4)   ,Sensitization wheat flour (f4),Nominal,13012,F2,-7
+1194,S_Reis,1195,Sensibilisierung Reismehl (f9)   ,Rice flour sensitization (f9),Nominal,13024,F2,-7
+1195,S_Erdnus,1196,Sensibilisierung Erdnuss (f13)   ,sensitization peanut (f13),Nominal,13033,F2,-7
+1196,S_Soja,1197,Sensibilisierung Sojabohne (f14)   ,Sensitization soybean (f14),Nominal,13033,F2,-7
+1197,S_Karott,1198,Sensibilisierung Karotte (f31)   ,sensitization carrot (f31),Nominal,13015,F2,-7
+1198,S_Kartof,1199,Sensibilisierung Kartoffel (f35)   ,Potato sensitization (f35),Nominal,13007,F2,-7
+1199,S_GApfel,1200,Sensibilisierung Grüner Apfel (f49)  ,Awareness Green Apple (f49),Nominal,13000,F2,-7
+1200,S_Liesch,1201,Sensibilisierung Lieschgras (Pollen) (g6)  ,Sensitization timothy grass (pollen) (g6),Nominal,13052,F2,-7
+1201,S_Roggen,1202,Sensibilisierung Roggen (Pollen) (g12)  ,Sensitization rye (pollen) (g12),Nominal,13042,F2,-7
+1202,S_Clados,1203,Sensibilisierung Cladosporium Herbarum (m2)  ,Sensitization Cladosporium Herbarum (m2),Nominal,13046,F2,-7
+1203,S_Asperg,1204,Sensibilisierung Aspergillus fumigatus (m3)  ,Sensitization to Aspergillus fumigatus (m3),Nominal,13042,F2,-7
+1204,S_Birke,1205,Sensibilisierung Birke (Pollen) (t3)  ,Birch (pollen) sensitization (t3),Nominal,13049,F2,-7
+1205,S_Beifus,1206,Sensibilisierung Beifuß (Pollen) (w6)  ,Sensitization to mugwort (pollen) (w6),Nominal,13044,F2,-7

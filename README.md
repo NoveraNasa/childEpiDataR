@@ -2,6 +2,8 @@
 
 ## Project Overview
 This repository focuses on analyzing epidemiological data using R, applying biostatistical methods to explore health-related variables in children. The project involves data preprocessing, statistical modeling, and hypothesis testing to derive meaningful insights from health datasets.
+                  ![Epidemiological Data Analysis](images/epidemiology_analysis.png)
+
 
 ## Problem Statement
 Understanding childhood disease burden and its relationship with demographic and health factors is essential for public health planning. This project aims to:

@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = disease_count ~ birthweight, family = quasipoisson, 
+    data = kiggs_nasa_clean)
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            -1.0831560  0.0566244 -19.129   <2e-16 ***
+birthweight2500 - 2999  0.0027045  0.0665819   0.041    0.968    
+birthweight3000 - 3499  0.0217086  0.0607883   0.357    0.721    
+birthweight3500 - 3999 -0.0006327  0.0616268  -0.010    0.992    
+birthweight4000 - 4499  0.0266613  0.0705546   0.378    0.706    
+birthweight4500+       -0.0456093  0.1177805  -0.387    0.699    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for quasipoisson family taken to be 1.04526)
+
+    Null deviance: 15263  on 16875  degrees of freedom
+Residual deviance: 15262  on 16870  degrees of freedom
+AIC: NA
+
+Number of Fisher Scoring iterations: 6
+

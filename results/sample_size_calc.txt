@@ -1,0 +1,11 @@
+
+     Two-sample t test power calculation 
+
+              n = 138.0716
+              d = 0.3
+      sig.level = 0.05
+          power = 0.8
+    alternative = greater
+
+NOTE: n is number in *each* group
+

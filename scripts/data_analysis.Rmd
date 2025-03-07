@@ -1,1 +1,116 @@
+---
+title: "childEpiDataR: Epidemiological Data Analysis using R"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: html_document
+---
 
+## Introduction
+This document presents the methodology and findings of the **childEpiDataR** project, which analyzes epidemiological data on child health. The study investigates the relationship between demographic variables and disease burden using biostatistical approaches in R.
+
+## Data Import and Preprocessing
+
+### 1. Load Required Packages
+```{r}
+library(dplyr)
+library(haven)
+library(table1)
+library(pwr)
+library(ggplot2)
+```
+
+### 2. Data Loading
+```{r}
+kiggs_data <- read_sav("KiGGS03_06.sav")
+head(kiggs_data)
+```
+
+### 3. Data Selection
+```{r}
+kiggs_nasa <- kiggs_data %>%
+  select(sex, age2, birthweight = e017a_k, 
+         disease1 = e02001, disease2 = e02002, 
+         disease3 = e02006, disease4 = e02009)
+head(kiggs_nasa)
+```
+
+### 4. Data Transformation
+```{r}
+kiggs_nasa <- kiggs_nasa %>%
+  mutate(
+    sex = factor(sex, labels = c("boys", "girls")),
+    age2 = factor(age2, labels = c("0-1y", "2-3y", "4-5y", "6-7y", "8-9y", "10-11y", "12-13y", "14-15y", "16-17y")),
+    birthweight = factor(birthweight, labels = c("under 2500", "2500 - 2999", "3000 - 3499", "3500 - 3999", "4000 - 4499", "4500+"))
+  )
+```
+
+### 5. Convert Disease Variables to Binary and Compute Disease Count
+```{r}
+kiggs_nasa <- kiggs_nasa %>%
+  mutate(across(disease1:disease4, ~ ifelse(. == 1, 1, 0)),  # Convert 1 = Yes, 0 = No
+         disease_count = rowSums(across(disease1:disease4), na.rm = TRUE))  # Sum diseases
+```
+
+### 6. Save Processed Data
+```{r}
+save(kiggs_nasa, file = "formatted_data.RData")
+```
+
+## Descriptive Statistics
+```{r}
+load("formatted_data.RData")
+table1(~ age2 + sex + disease1 + disease2 + disease3 + disease4, data = kiggs_nasa)
+```
+
+## Data Visualization
+### Distribution of Age Groups
+```{r}
+ggplot(kiggs_nasa, aes(x = age2, fill = sex)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Age Distribution by Sex", x = "Age Groups", y = "Count") +
+  theme_minimal()
+```
+
+### Birthweight Distribution
+```{r}
+ggplot(kiggs_nasa, aes(x = birthweight)) +
+  geom_bar(fill = "skyblue") +
+  labs(title = "Birthweight Distribution", x = "Birthweight Category", y = "Count") +
+  theme_minimal()
+```
+
+### Disease Burden vs Birthweight
+```{r}
+kiggs_nasa_clean <- kiggs_nasa %>% filter(!is.na(birthweight))
+
+ggplot(kiggs_nasa_clean, aes(x = birthweight, y = disease_count, fill = birthweight)) +
+  geom_boxplot(alpha = 0.6) +
+  geom_jitter(aes(color = birthweight), width = 0.2, alpha = 0.5) +
+  stat_summary(fun = mean, geom = "point", shape = 4, size = 4, color = "red") +
+  labs(title = "Disease Burden vs Birthweight", x = "Birthweight Category", y = "Number of Diseases") +
+  theme_minimal() +
+  scale_x_discrete(drop = TRUE)
+```
+
+## Regression Analysis
+### Quasi-Poisson Regression
+```{r}
+quasi_poisson_model <- glm(disease_count ~ birthweight, 
+                           data = kiggs_nasa_clean, 
+                           family = quasipoisson)
+summary(quasi_poisson_model)
+```
+
+## Sample Size Calculation
+```{r}
+sample_size <- pwr.t.test(d = 0.3, power = 0.8, sig.level = 0.05, 
+                           type = "two.sample", alternative = "greater")
+print(sample_size$n)
+```
+
+## Conclusion
+This study analyzed child health data, demonstrating statistical approaches for modeling disease burden. The findings suggest minimal influence of birth weight on infection burden. Future studies should consider additional confounding factors to refine the analysis.
+
+---
+
+This report is part of the **childEpiDataR** project hosted on GitHub. For full analysis details, refer to the `data_analysis.Rmd` file in the repository.
